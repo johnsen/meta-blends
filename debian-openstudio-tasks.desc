@@ -1,0 +1,373 @@
+Task: openstudio-openstudiopro-ambisonics
+Section: debian-openstudio
+Description: Packages for installing packages you need for working with ambisonics (3D surround sound) in Debian/ Ubuntu.
+ This metapackage will install packages you need when working with ambisonics.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-ambisonics
+Packages: list
+ amb-plugins
+ ardour
+ jackd
+ qjackctl
+ japa
+ jconvolver
+ jconvolver-config-files
+
+Task: openstudio-openstudiopro-beat
+Section: debian-openstudio
+Description: Packages for drums & beats.
+ Metapackage which installs packages for making drums and beats.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-beat
+Packages: list
+ hydrogen
+ specimen
+
+Task: openstudio-openstudiopro-desktop
+Section: debian-openstudio
+Description: Extra packages which makes the Desktop more useful or more easy to use.
+ This metapackage will install additional Desktop software. 
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-desktop
+Packages: list
+ wget
+ shutter
+ gtk-recordmydesktop
+ htop
+ sysv-rc-conf
+ pidgin
+ nautilus-open-terminal
+ grsync
+ thunderbird
+
+Task: openstudio-openstudiopro-djing
+Section: debian-openstudio
+Description: Openstudiopro DJ packages.
+ This metapackage will install packages for djing. 
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-djing
+Packages: list
+ mixxx
+ xwax
+
+Task: openstudio-openstudiopro-firewire
+Section: debian-openstudio
+Description: Packages for your firewire (ffado supported) audiocard / interface.
+ This metapackage will install packages to configure your ffado supported firewire audio card.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-firewire
+Packages: list
+ jackd
+ jackd-firewire
+ ffado-dbus-server
+ ffado-mixer-qt4
+ ffado-tools
+ a2jmidid
+ libffado2
+ patchage
+
+Task: openstudio-openstudiopro-fluxbox
+Section: debian-openstudio
+Description: Openstudio metapackage for installing Fluxbox Window Manager.
+ This metapackage will install fluxbox WM and filebrowser thunar. If you don't want to have thunar, don't install this package and do 'sudo apt-get install fluxbox'.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-fluxbox
+Packages: list
+ fluxbox
+ thunar
+
+Task: openstudio-openstudiopro-graphics
+Section: debian-openstudio
+Description: Packages for making and editing artwork.
+ This metapackage will install packages for making and editing artwork.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-graphics
+Packages: list
+ gimp
+ gimp-data
+ gimp-data-extras
+ gimp-gap
+ gimp-plugin-registry
+ gimp-ufraw
+
+Task: openstudio-openstudiopro-guitar
+Section: debian-openstudio
+Description: Packages for playing with your (virtual) guitar gear.
+ Packages which might be useful when playing guitar, adding guitar effects to your audio streams and / or editing notation and tablature for your guitar music.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-guitar
+Packages: list
+ rakarrack
+ guitarix
+ jconvolver
+ jconvolver-config-files
+ fmit
+ jackd
+ qjackctl
+
+Task: openstudio-openstudiopro-jack
+Section: debian-openstudio
+Description: JACK (Jack Audio Connection Kit) and ALSA related packages
+ This metapackage will install pro audio JACK (Jack Audio Connection Kit) and ALSA related packages.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-jack
+Packages: list
+ jackd
+ qjackctl
+ a2jmidid
+ jack-tools
+ alsa-tools-gui
+ alsa-tools
+ sysv-rc-conf
+
+Task: openstudio-openstudiopro-looping
+Section: debian-openstudio
+Description: Packages for looping music and audio.
+ Metapackage which installs packages with the aim to loop your audio (and midi).
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-looping
+Packages: list
+ sooperlooper
+ kluppe
+
+Task: openstudio-openstudiopro-midi
+Section: debian-openstudio
+Description: Openstudio pro audio MIDI related packages
+ This metapackage will install pro audio MIDI related packages for openstudio.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-midi
+Packages: list
+ qtractor
+ a2jmidid
+ jack-keyboard
+ qsynth
+ fluid-soundfont-gm
+ yoshimi
+
+Task: openstudio-openstudiopro-mixing
+Section: debian-openstudio
+Description: Packages for mixing and mastering your music.
+ This metapackage will install software to do mixing and mastering.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-mixing
+Packages: list
+ audacity
+ jamin
+ gcdmaster
+ jkmeter
+ meterbridge
+ japa
+ jdelay
+ openstudio-proaudio-plugins-lv2
+ openstudio-proaudio-plugins-ladspa
+ jack-mixer
+
+Task: openstudio-openstudiopro-multimedia
+Section: debian-openstudio
+Description: Packages which makes your multimedia tools complete...
+ This metapackage will install additional 'consumer' multimedia  software.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-multimedia
+Packages: list
+ vlc
+ vlc-plugin-jack
+ moc
+ smplayer
+
+Task: openstudio-openstudiopro-musiciantools
+Section: debian-openstudio
+Description: Packages for musicians: theory, metronome, instrumenttuner etc.
+ Packages for musicians: theory, metronome, instrumenttuner etc.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-musiciantools
+Packages: list
+ solfege
+ klick
+ gtklick
+ fmit
+
+Task: openstudio-openstudiopro-musicnotation
+Section: debian-openstudio
+Description: Packages for editing music score.
+ Packages for editing music score.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-musicnotation
+Packages: list
+ musescore
+ lilypond
+
+Task: openstudio-openstudiopro-plugins-dssi
+Section: debian-openstudio
+Description: DSSI plugins, synths and virtual instruments.
+ This metapackage will install proaudio DSSI plugins packages.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-plugins-dssi
+Packages: list
+ dssi-host-jack
+ dssi-utils
+ fluidsynth-dssi
+ hexter
+ zynaddsubfx-dssi
+ whysynth
+ xsynth-dssi
+ calf-plugins
+
+Task: openstudio-openstudiopro-plugins-ladspa
+Section: debian-openstudio
+Description: Packages for installing LADSPA plugins.
+ This metapackage will install proaudio LADSPA plugins.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-plugins-ladspa
+Packages: list
+ blop
+ amb-plugins
+ rev-plugins
+ tap-plugins
+ wah-plugins
+ vco-plugins
+ blepvco
+ jack-rack
+ fil-plugins
+ ladspa-sdk
+ mcp-plugins
+ omins
+ swh-plugins
+ invada-studio-plugins-ladspa
+ rubberband-ladspa
+ csladspa
+ jconvolver
+ jconvolver-config-files
+ ams
+
+Task: openstudio-openstudiopro-plugins-lv2
+Section: debian-openstudio
+Description: LV2 plugins, synths and virtual instruments.
+ This metapackage will install proaudio LV2 plugins packages.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-plugins-lv2
+Packages: list
+ lv2vocoder
+ lv2fil
+ lv2core
+ libslv2-dev
+ libslv2-9
+ liblv2dynparamplugin1-0
+ liblv2dynparamhost1-1
+ invada-studio-plugins-lv2
+ slv2-doc
+ slv2-jack
+ zynjacku
+ calf-plugins
+
+Task: openstudio-openstudiopro-realtime
+Section: debian-openstudio
+Description: This packages installs a realtime kernel for low latency.
+ This metapackage will install a realtime kernel for low latency.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-realtime
+Packages: list
+ linux-realtime
+
+Task: openstudio-openstudiopro-recording
+Section: debian-openstudio
+Description: Packages for recording music, sounds, audio.
+ Packages for recording music, sounds, audio.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-recording
+Packages: list
+ ardour
+ qtractor
+ jack-capture
+ meterbridge
+ qjackctl
+ jackd
+ openstudio-proaudio-plugins-lv2
+ openstudio-proaudio-plugins-ladspa
+ jack-mixer
+
+Task: openstudio-openstudiopro-samplers
+Section: debian-openstudio
+Description: Software samplers.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-samplers
+Packages: list
+ specimen
+
+Task: openstudio-openstudiopro-soundsynthesis
+Section: debian-openstudio
+Description: Packages for sound synthesis.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-soundsynthesis
+Packages: list
+ csound
+ puredata
+
+Task: openstudio-openstudiopro-synths
+Section: debian-openstudio
+Description: Metapackage with virtual instruments and synths.
+ This metapackage will install synths and virtual instruments. 
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-synths
+Packages: list
+ yoshimi
+ phasex
+ ams
+ bristol
+ puredata
+
+Task: openstudio-openstudiopro-timestretching
+Section: debian-openstudio
+Description: Packages for stretching music and audio.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-timestretching
+Packages: list
+ rubberband-cli
+ rubberband-ladspa
+ rubberband-vamp
+
+Task: openstudio-openstudiopro-trackers
+Section: debian-openstudio
+Description: Vertical MIDI sequencers, or Trackers if you want.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-trackers
+Packages: list
+ milkytracker
+
+Task: openstudio-openstudiopro-video
+Section: debian-openstudio
+Description: Openstudio Video packages
+ This metapackage will install Video software. Some are especially usefull to combine video and sound.
+Relevance: 10
+Key: 
+ openstudio-openstudiopro-video
+Packages: list
+ xjadeo
+ blender
+ ffmpeg
+ ffmpeg2theora
+

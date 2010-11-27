@@ -1,0 +1,54 @@
+Task: Openstudiopro-plugins-ladspa
+Description: Packages for installing LADSPA plugins.
+ This metapackage will install proaudio LADSPA plugins.
+
+Depends: blop
+
+Depends: amb-plugins
+
+Depends: ambdec 
+
+Depends: rev-plugins 
+
+Depends: tap-plugins
+
+Depends: wah-plugins
+
+Depends: vco-plugins 
+
+Depends: blepvco
+
+Depends: jack-rack
+
+Depends: fil-plugins
+
+Depends: ladspa-sdk
+
+Depends: mcp-plugins
+
+Depends: omins
+
+Depends: swh-plugins
+
+Depends: invada-studio-plugins-ladspa
+
+Depends: rubberband-ladspa 
+
+Depends: csladspa 
+
+Depends: jconvolver
+
+Depends: jconvolver-config-files
+
+Depends: zita-at1
+
+Depends: ams
+
+Depends: autotalent
+
+#Dependsdssi-example-plugins wsynth-dssi ghostess dssi-host-jack dssi-utils fil-plugins fluidsynth-dssi hexter zynaddsubfx-dssi ladspa-sdk mcp-plugins omins swh-plugins tap-plugins xsynth-dssi whysynth invada-studio-plugins-lv2 invada-studio-plugins-ladspa swh-lv2 slv2-jack lv2vocoder lv2fil lv2core libslv2-dev libslv2-9 liblv2dynparamplugin1-0 liblv2dynparamhost1-1 rubberband-ladspa csladspa wah-plugins jamin meterbridge jkmeter japa jdelay jack-rack jack-mixer gcdmaster jconvolver lv2vocoder vocproc
+#Suggests: zynadd non-mixer
+
+
+
+

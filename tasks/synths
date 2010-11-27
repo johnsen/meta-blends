@@ -1,0 +1,34 @@
+Task: Openstudiopro-synths
+Description: Metapackage with virtual instruments and synths.
+ This metapackage will install synths and virtual instruments. 
+
+Depends: yoshimi 
+
+Depends: phasex 
+
+Depends: ams 
+
+Depends: bristol 
+
+Depends: linuxsampler 
+
+Depends: puredata
+
+Suggests: amsynth 
+
+Suggests: minicomputer
+
+Suggests: aeolus 
+
+Suggests: azr3-jack
+
+Suggests: genpo
+
+Suggests: zynaddsubfx 
+
+Suggests: proaudio-plugins-dssi
+
+Suggests: proaudio-plugins-lv2
+
+Suggests: proaudio-samplers
+

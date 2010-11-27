@@ -1,0 +1,21 @@
+Task: Openstudiopro-muscicnotation
+Description: Packages for editing music score.
+ Packages for editing music score.
+ 
+Depends: musescore
+
+Depends: lilypond
+
+Suggests: nted
+
+Suggests: frescobaldi
+
+Suggests: denemo
+
+Suggests: rosegarden 
+
+
+
+    
+
+

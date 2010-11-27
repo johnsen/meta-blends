@@ -1,0 +1,94 @@
+Task: Openstudiopro-soundsynthesis
+Description: Packages for sound synthesis.	
+ 
+Depends: supercollider                     
+Depends: supercollider-bbcut2                 
+Depends: supercollider-common                  
+Depends: supercollider-common-dev              
+Depends: supercollider-dev                     
+Depends: supercollider-doc                     
+Depends: supercollider-emacs                   
+Depends: supercollider-fougens-astrocade      
+Depends: supercollider-fougens-atari2600      
+Depends: supercollider-fougens-ay8910         
+Depends: supercollider-fougens-beep           
+Depends: supercollider-fougens-bit            
+Depends: supercollider-fougens-mzpokey         
+Depends: supercollider-fougens-pokey           
+Depends: supercollider-fougens-reddpcm         
+Depends: supercollider-fougens-redlbyl         
+Depends: supercollider-fougens-rednoise        
+Depends: supercollider-fougens-redphasor       
+Depends: supercollider-fougens-sid6581f        
+Depends: supercollider-fougens-slub            
+Depends: supercollider-fougens-sn76489         
+Depends: supercollider-gedit                   
+Depends: supercollider-jtugens                
+Depends: supercollider-plugins                 
+Depends: supercollider-quarks                  
+Depends: supercollider-server                 
+Depends: supercollider-server-dev             
+Depends: supercollider-vim                     
+
+
+Depends: csound
+Depends: csound-gui
+Depends: csound-utils
+Depends: csoundx
+Depends: qutecsound
+Depends: python-csound    
+Depends: python-csoundac 
+Depends: csladspa
+Depends: mmm-mode
+
+
+Depends: puredata
+Depends: pd-abstractions                      
+Depends: pd-arduino                            
+Depends: pd-container                          
+Depends: pd-creb                               
+Depends: pd-cxc                                
+Depends: pd-ext13                              
+Depends: pd-flext                              
+Depends: pd-gem                                
+Depends: pd-gem2pdp                            
+Depends: pd-ggee                               
+Depends: pd-gridflow                          
+Depends: pd-hid                               
+Depends: pd-iemlib                             
+Depends: pd-iemmatrix                    
+Depends: pd-libstdcpp                         
+Depends: pd-lua                               
+Depends: pd-lyonpotpourri                      
+Depends: pd-mapping                           
+Depends: pd-markex                             
+Depends: pd-mjlib                             
+Depends: pd-motex                              
+Depends: pd-mrpeach                            
+Depends: pd-msd                                
+Depends: pd-ogg                                
+Depends: pd-opencv-data                        
+Depends: pd-oscbank                            
+Depends: pd-pdp-opencv                        
+Depends: pd-pidip                              
+Depends: pd-pix-opencv                         
+Depends: pd-pool                              
+Depends: pd-py                                
+Depends: pd-readanysf                          
+Depends: pd-sigpack                           
+Depends: pd-smlib                              
+Depends: pd-unauthorized                       
+Depends: pd-windowing                        
+Depends: pd-xsample                            
+Depends: pd-zexy              
+
+
+Suggests: chuck
+
+Suggests: faust 
+
+ 
+
+    
+
+

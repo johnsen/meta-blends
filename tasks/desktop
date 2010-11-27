@@ -1,0 +1,31 @@
+Task: openstudiopro-desktop
+Description: Extra packages which makes the Desktop more useful or more easy to use.
+ This metapackage will install additional Desktop software. 
+
+Depends: wget 
+
+Depends: shutter 
+
+Depends: gtk-recordmydesktop 
+
+Depends: ubuntu-restricted-extras
+
+Depends: htop 
+
+Depends: sysv-rc-conf 
+
+Depends: pidgin 
+
+Depends: nautilus-open-terminal 
+
+Depends: grsync
+
+Depends: thunderbird 
+
+Suggests: xchat 
+
+Suggests: epiphany-browser 
+
+
+
+

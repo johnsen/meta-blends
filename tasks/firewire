@@ -1,0 +1,24 @@
+Task: Openstudiopro-firewire
+Description: Packages for your firewire (ffado supported) audiocard / interface.
+ This metapackage will install packages to configure your ffado supported firewire audio card.
+
+Depends: jackd
+
+Depends: jackd-firewire
+
+Depends: ffado-dbus-server 
+
+Depends: ffado-mixer-qt4 
+
+Depends: ffado-tools
+
+Depends: a2jmidid 
+
+Depends: libffado2 
+
+Depends: patchage
+
+
+
+
+

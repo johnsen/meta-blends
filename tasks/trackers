@@ -1,0 +1,10 @@
+Task: Openstudiopro-trackers
+Description: Vertical MIDI sequencers, or Trackers if you want.
+
+
+Depends: jacker
+
+Depends: milkytracker
+
+Suggests: schism
+

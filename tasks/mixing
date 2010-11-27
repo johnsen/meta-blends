@@ -1,0 +1,33 @@
+Task: Openstudiopro-mixing
+Description: Packages for mixing and mastering your music.
+ This metapackage will install software to do mixing and mastering.
+
+Depends: audacity 
+
+Depends: jamin 
+
+Depends: gcdmaster
+
+Depends: jkmeter
+
+Depends: meterbridge
+
+Depends: japa
+
+Depends: arpage
+
+Depends: jdelay
+
+Depends: openstudio-proaudio-plugins-lv2
+
+Depends: openstudio-proaudio-plugins-ladspa
+
+Depends: jack-mixer 
+
+Suggests: non-mixer
+
+Suggests: mhwaveedit
+
+Suggests: rezound
+
+

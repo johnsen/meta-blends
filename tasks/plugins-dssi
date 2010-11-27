@@ -1,0 +1,27 @@
+Task: Openstudiopro-plugins-dssi
+Description: DSSI plugins, synths and virtual instruments.
+ This metapackage will install proaudio DSSI plugins packages.
+
+Depends: ghostess
+
+Depends: dssi-host-jack
+
+Depends: dssi-utils
+
+Depends: fluidsynth-dssi
+
+Depends: hexter
+
+Depends: zynaddsubfx-dssi
+
+Depends: whysynth
+
+Depends: xsynth-dssi
+
+Depends: linuxsampler-dssi
+
+Depends: calf-plugins
+
+
+
+

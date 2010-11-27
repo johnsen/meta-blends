@@ -1,0 +1,44 @@
+Task: Openstudiopro-guitar
+Description: Packages for playing with your (virtual) guitar gear. 
+ Packages which might be useful when playing guitar, adding guitar effects to your audio streams and / or editing notation and tablature for your guitar music.
+ 
+Depends: rakarrack
+
+Depends: guitarix  
+
+Depends: jconvolver
+
+Depends: jconvolver-config-files
+
+Depends: proaudio-plugins-ladspa
+
+Depends: proaudio-plugins-lv2
+
+Depends: fmit
+
+Depends: jackd
+
+Depends: qjackctl
+
+Suggests: tuxguitar
+
+Suggests: chordata
+
+Suggests: stretchplayer
+
+Suggests: playitslowly
+
+Suggests: musescore
+
+Suggests: lilypond
+
+Suggests: frescobaldi
+
+
+
+
+
+
+
+
+

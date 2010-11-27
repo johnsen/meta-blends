@@ -1,0 +1,43 @@
+Task: Openstudiopro-midi
+Description: Openstudio pro audio MIDI related packages
+ This metapackage will install pro audio MIDI related packages for openstudio.
+
+Depends: qtractor 
+
+Depends: a2jmidid 
+
+Depends: jack-keyboard 
+
+Depends: qsynth 
+
+Depends: fluid-soundfont-gm
+
+Depends: aseqdump
+
+Depends: yoshimi
+
+Depends: qmidiarp
+
+Depends: qmidiroute
+
+Depends: qmidicontrol
+
+Depends: jack-smf-utils
+
+Depends: proaudio-plugins-dssi
+
+Suggests: kmidimon
+
+Suggests: mididings 
+
+Suggests: rosegarden
+
+Suggests: muse 
+
+Suggests: seq24 
+
+Suggests: non-sequencer 
+
+Suggests: lmms
+
+Suggests: swami

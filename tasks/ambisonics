@@ -1,0 +1,28 @@
+Task: openstudiopro-ambisonics
+Description: Packages for installing packages you need for working with ambisonics (3D surround sound) in Debian/ Ubuntu.
+ This metapackage will install packages you need when working with ambisonics.
+
+Depends: ambdec 
+
+Depends: amb-plugins  
+
+Depends: ardour
+
+Depends: jackd
+
+Depends: qjackctl
+
+Depends: japa
+
+Depends: jconvolver
+
+Depends: jconvolver-config-files
+
+Depends: drc
+
+Depends: aliki
+
+Depends: zita-rev1
+
+Suggests: non-mixer
+

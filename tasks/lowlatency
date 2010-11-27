@@ -1,0 +1,6 @@
+Task: proaudio-lowlatency
+Description: Openstudio pro audio JACK (Jack Audio Connection Kit) and ALSA related packages
+ This metapackage will install pro audio JACK (Jack Audio Connection Kit) and ALSA related packages for openstudio.
+
+Depends: linux-lowlatency
+

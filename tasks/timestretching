@@ -1,0 +1,21 @@
+Task: Openstudiopro-timestretching
+Description: Packages for stretching music and audio.
+ 
+Depends: paulstretch
+
+Depends: rubberband-cli
+
+Depends: rubberband-ladspa
+
+Depends: rubberband-vamp
+
+Depends: stretchplayer
+
+Suggests: rosegarden
+
+Suggests: ardour
+
+Suggests: qtractor
+    
+
+

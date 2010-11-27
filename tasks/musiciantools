@@ -1,0 +1,23 @@
+Task: Openstudiopro-musician
+Description: Packages for musicians: theory, metronome, instrumenttuner etc.
+ Packages for musicians: theory, metronome, instrumenttuner etc.
+ 
+Depends: solfege
+
+Depends: klick
+
+Depends: gtklick
+
+Suggests: fmit
+
+Suggests: stretchplayer
+
+Suggests: playitslowly
+
+Suggests: impro-visor 
+
+#Depends: audacity 
+
+    
+
+

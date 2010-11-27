@@ -1,0 +1,39 @@
+Task: Openstudiopro-recording
+Description: Packages for recording music, sounds, audio.
+ Packages for recording music, sounds, audio.
+ 
+Depends: ardour 
+
+Depends: qtractor 
+
+Depends: jack-capture 
+
+Depends: meterbridge 
+
+Depends: qjackctl
+
+Depends: jackd
+
+Depends: openstudio-proaudio-plugins-lv2
+
+Depends: openstudio-proaudio-plugins-ladspa
+
+Depends: jack-mixer
+
+Suggests: non-mixer
+
+Suggests: non-daw
+
+Suggests: ecasound
+
+Suggests: traverso 
+
+Suggests: rezound 
+
+Suggests: timemachine
+
+Suggests: jack-oscrolloscope
+
+Suggests: jokosher
+
+
