@@ -1,0 +1,22 @@
+Task: openstudiopro-admin
+Description: Extra packages for some admin tasks.
+ This metapackage will install additional admin software. 
+
+Depends: wget 
+
+Depends: htop 
+
+Depends: sysv-rc-conf 
+
+Depends: nautilus-open-terminal 
+
+Depends: grsync
+
+Depends: git-core
+
+Depends: subversion
+ 
+
+
+
+
