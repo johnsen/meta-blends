@@ -1,0 +1,9 @@
+Source: debian-openstudiopro
+Section: misc
+Priority: extra
+Maintainer: rosea grammostola <rosea.grammostola@gmail.com>
+#Uploaders: _OPTIONAL-FURTHER-MAINTAINER_ <_optional-further-maintainer_@debian.org>
+Build-Depends-Indep: debhelper (>= 7.1), blends-dev
+Standards-Version: 3.9.1
+
+
