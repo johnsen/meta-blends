@@ -16,7 +16,9 @@ Depends: git-core
 
 Depends: subversion
  
+Depends: unp
 
+Depends: hwinfo
 
 
 
