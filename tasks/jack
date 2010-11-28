@@ -14,10 +14,6 @@ Depends: alsa-tools-gui
 
 Depends: alsa-tools
 
-Depends: sysv-rc-conf
-
-Suggests: htop
-
 Suggests: patchage
 
 
