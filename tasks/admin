@@ -20,5 +20,6 @@ Depends: unp
 
 Depends: hwinfo
 
+Depends: powertop
 
-
+Depends: mc
