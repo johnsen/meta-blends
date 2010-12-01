@@ -10,9 +10,9 @@ Depends: jconvolver
 
 Depends: jconvolver-config-files
 
-Depends: proaudio-plugins-ladspa
+#Depends: proaudio-plugins-ladspa
 
-Depends: proaudio-plugins-lv2
+#Depends: proaudio-plugins-lv2
 
 Depends: fmit
 

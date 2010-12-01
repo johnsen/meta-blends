@@ -114,7 +114,7 @@ Package: openstudiopro-mixing
 Architecture: all
 Depends: openstudiopro-tasks (= ${binary:Version})
 Recommends: audacity, gcdmaster, jack-mixer, jamin, japa, jdelay, jkmeter, meterbridge
-Suggests: arpage, mhwaveedit, non-mixer, openstudio-proaudio-plugins-ladspa, openstudio-proaudio-plugins-lv2, rezound
+Suggests: arpage, mhwaveedit, non-mixer, rezound
 Description: Packages for mixing and mastering your music.
  This metapackage will install software to do mixing and mastering.
 
@@ -177,7 +177,7 @@ Package: openstudiopro-recording
 Architecture: all
 Depends: openstudiopro-tasks (= ${binary:Version})
 Recommends: ardour, jack-mixer, jackd, meterbridge, qjackctl, qtractor
-Suggests: ecasound, jack-capture, jack-oscrolloscope, jokosher, non-daw, non-mixer, openstudio-proaudio-plugins-ladspa, openstudio-proaudio-plugins-lv2, rezound, timemachine, traverso
+Suggests: ecasound, jack-capture, jack-oscrolloscope, jokosher, non-daw, non-mixer, rezound, timemachine, traverso
 Description: Packages for recording music, sounds, audio.
  Packages for recording music, sounds, audio.
 
