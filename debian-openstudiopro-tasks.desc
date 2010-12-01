@@ -1,3 +1,23 @@
+Task: openstudiopro-admin
+Section: debian-openstudiopro
+Description: Extra packages for some admin tasks.
+ This metapackage will install additional admin software. 
+Relevance: 10
+Key: 
+ openstudiopro-admin
+Packages: list
+ wget
+ htop
+ sysv-rc-conf
+ nautilus-open-terminal
+ grsync
+ git-core
+ subversion
+ unp
+ hwinfo
+ powertop
+ mc
+
 Task: openstudiopro-ambisonics
 Section: debian-openstudiopro
 Description: Packages for installing packages you need for working with ambisonics (3D surround sound) in Debian/ Ubuntu.
@@ -31,15 +51,10 @@ Relevance: 10
 Key: 
  openstudiopro-desktop
 Packages: list
- wget
  shutter
  gtk-recordmydesktop
  ubuntu-restricted-extras
- htop
- sysv-rc-conf
  pidgin
- nautilus-open-terminal
- grsync
  thunderbird
 
 Task: openstudiopro-djing
@@ -63,17 +78,6 @@ Key:
 Packages: list
  hydrogen
  hydrogen-drumkits
-
-Task: openstudiopro-drums.save
-Section: debian-openstudiopro
-Description: Packages for drums & beats.
- Metapackage which installs packages for making drums and beats.
-Relevance: 10
-Key: 
- openstudiopro-drums.save
-Packages: list
- hydrogen
- specimen
 
 Task: openstudiopro-firewire
 Section: debian-openstudiopro
@@ -102,6 +106,11 @@ Key:
 Packages: list
  fluxbox
  thunar
+ menu
+ conky
+ xfce4-power-manager
+ wmctrl
+ fbdesk
 
 Task: openstudiopro-graphics
 Section: debian-openstudiopro
@@ -149,7 +158,6 @@ Packages: list
  jack-tools
  alsa-tools-gui
  alsa-tools
- sysv-rc-conf
 
 Task: openstudiopro-looping
 Section: debian-openstudiopro
@@ -194,8 +202,6 @@ Packages: list
  meterbridge
  japa
  jdelay
- openstudio-proaudio-plugins-lv2
- openstudio-proaudio-plugins-ladspa
  jack-mixer
 
 Task: openstudiopro-multimedia
@@ -243,6 +249,7 @@ Relevance: 10
 Key: 
  openstudiopro-plugins-dssi
 Packages: list
+ ghostess
  dssi-host-jack
  dssi-utils
  fluidsynth-dssi
@@ -323,12 +330,9 @@ Key:
 Packages: list
  ardour
  qtractor
- jack-capture
  meterbridge
  qjackctl
  jackd
- openstudio-proaudio-plugins-lv2
- openstudio-proaudio-plugins-ladspa
  jack-mixer
 
 Task: openstudiopro-samplers
@@ -338,6 +342,7 @@ Relevance: 10
 Key: 
  openstudiopro-samplers
 Packages: list
+ linuxsampler
  specimen
 
 Task: openstudiopro-soundsynthesis
@@ -369,6 +374,7 @@ Packages: list
  supercollider-fougens-slub
  supercollider-fougens-sn76489
  supercollider-gedit
+ supercollider-jtugens
  supercollider-plugins
  supercollider-quarks
  supercollider-server
@@ -383,6 +389,7 @@ Packages: list
  csladspa
  mmm-mode
  puredata
+ pd-abstractions
  pd-container
  pd-creb
  pd-cxc
@@ -419,6 +426,7 @@ Packages: list
  phasex
  ams
  bristol
+ linuxsampler
  puredata
 
 Task: openstudiopro-timestretching

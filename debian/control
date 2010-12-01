@@ -7,6 +7,14 @@ Maintainer: rosea grammostola <rosea.grammostola@gmail.com>
 Build-Depends-Indep: debhelper (>= 7.1), blends-dev
 Standards-Version: 3.9.1
 
+
+Package: openstudiopro-admin
+Architecture: all
+Depends: openstudiopro-tasks (= ${binary:Version})
+Recommends: git-core, grsync, htop, hwinfo, mc, nautilus-open-terminal, powertop, subversion, sysv-rc-conf, unp, wget
+Description: Extra packages for some admin tasks.
+ This metapackage will install additional admin software. 
+
 Package: openstudiopro-ambisonics
 Architecture: all
 Depends: openstudiopro-tasks (= ${binary:Version})
@@ -26,7 +34,7 @@ Description: Packages which might be useful when composing music.
 Package: openstudiopro-desktop
 Architecture: all
 Depends: openstudiopro-tasks (= ${binary:Version})
-Recommends: grsync, gtk-recordmydesktop, htop, nautilus-open-terminal, pidgin, shutter, sysv-rc-conf, thunderbird, ubuntu-restricted-extras, wget
+Recommends: gtk-recordmydesktop, pidgin, shutter, thunderbird, ubuntu-restricted-extras
 Suggests: epiphany-browser, xchat
 Description: Extra packages which makes the Desktop more useful or more easy to use.
  This metapackage will install additional Desktop software. 
@@ -47,14 +55,6 @@ Suggests: jackbeat, lmms, non-sequencer, puredata, seq24, specimen
 Description: Packages for drums & beats.
  Metapackage which installs packages for making drums and beats.
 
-Package: openstudiopro-drums.save
-Architecture: all
-Depends: openstudiopro-tasks (= ${binary:Version})
-Recommends: hydrogen, specimen
-Suggests: jackbeat, lmms, non-sequencer, puredata, seq24
-Description: Packages for drums & beats.
- Metapackage which installs packages for making drums and beats.
-
 Package: openstudiopro-firewire
 Architecture: all
 Depends: openstudiopro-tasks (= ${binary:Version})
@@ -65,7 +65,8 @@ Description: Packages for your firewire (ffado supported) audiocard / interface.
 Package: openstudiopro-fluxbox
 Architecture: all
 Depends: openstudiopro-tasks (= ${binary:Version})
-Recommends: fluxbox, thunar
+Recommends: conky, fbdesk, fluxbox, menu, thunar, wmctrl, xfce4-power-manager
+Suggests: dmenu
 Description: Openstudio metapackage for installing Fluxbox Window Manager.
  This metapackage will install fluxbox WM and filebrowser thunar. If you don't want to have thunar, don't install this package and do 'sudo apt-get install fluxbox'.
 
@@ -88,8 +89,8 @@ Description: Packages for playing with your (virtual) guitar gear.
 Package: openstudiopro-jack
 Architecture: all
 Depends: openstudiopro-tasks (= ${binary:Version})
-Recommends: a2jmidid, alsa-tools, alsa-tools-gui, jack-tools, jackd, qjackctl, sysv-rc-conf
-Suggests: htop, patchage
+Recommends: a2jmidid, alsa-tools, alsa-tools-gui, jack-tools, jackd, qjackctl
+Suggests: patchage
 Description: JACK (Jack Audio Connection Kit) and ALSA related packages
  This metapackage will install pro audio JACK (Jack Audio Connection Kit) and ALSA related packages.
 
@@ -112,8 +113,8 @@ Description: Openstudio pro audio MIDI related packages
 Package: openstudiopro-mixing
 Architecture: all
 Depends: openstudiopro-tasks (= ${binary:Version})
-Recommends: audacity, gcdmaster, jack-mixer, jamin, japa, jdelay, jkmeter, meterbridge, openstudio-proaudio-plugins-ladspa, openstudio-proaudio-plugins-lv2
-Suggests: arpage, mhwaveedit, non-mixer, rezound
+Recommends: audacity, gcdmaster, jack-mixer, jamin, japa, jdelay, jkmeter, meterbridge
+Suggests: arpage, mhwaveedit, non-mixer, openstudio-proaudio-plugins-ladspa, openstudio-proaudio-plugins-lv2, rezound
 Description: Packages for mixing and mastering your music.
  This metapackage will install software to do mixing and mastering.
 
@@ -144,8 +145,8 @@ Description: Packages for editing music score.
 Package: openstudiopro-plugins-dssi
 Architecture: all
 Depends: openstudiopro-tasks (= ${binary:Version})
-Recommends: calf-plugins, dssi-host-jack, dssi-utils, fluidsynth-dssi, hexter, whysynth, xsynth-dssi, zynaddsubfx-dssi
-Suggests: ghostess, linuxsampler-dssi
+Recommends: calf-plugins, dssi-host-jack, dssi-utils, fluidsynth-dssi, ghostess, hexter, whysynth, xsynth-dssi, zynaddsubfx-dssi
+Suggests: linuxsampler-dssi
 Description: DSSI plugins, synths and virtual instruments.
  This metapackage will install proaudio DSSI plugins packages.
 
@@ -175,30 +176,29 @@ Description: This packages installs a realtime kernel for low latency.
 Package: openstudiopro-recording
 Architecture: all
 Depends: openstudiopro-tasks (= ${binary:Version})
-Recommends: ardour, jack-capture, jack-mixer, jackd, meterbridge, openstudio-proaudio-plugins-ladspa, openstudio-proaudio-plugins-lv2, qjackctl, qtractor
-Suggests: ecasound, jack-oscrolloscope, jokosher, non-daw, non-mixer, rezound, timemachine, traverso
+Recommends: ardour, jack-mixer, jackd, meterbridge, qjackctl, qtractor
+Suggests: ecasound, jack-capture, jack-oscrolloscope, jokosher, non-daw, non-mixer, openstudio-proaudio-plugins-ladspa, openstudio-proaudio-plugins-lv2, rezound, timemachine, traverso
 Description: Packages for recording music, sounds, audio.
  Packages for recording music, sounds, audio.
 
 Package: openstudiopro-samplers
 Architecture: all
 Depends: openstudiopro-tasks (= ${binary:Version})
-Recommends: specimen
-Suggests: linuxsampler
+Recommends: linuxsampler, specimen
 Description: Software samplers.
 
 Package: openstudiopro-soundsynthesis
 Architecture: all
 Depends: openstudiopro-tasks (= ${binary:Version})
-Recommends: csladspa, csound, csound-gui, csound-utils, mmm-mode, pd-container, pd-creb, pd-cxc, pd-ext13, pd-flext, pd-gem2pdp, pd-iemlib, pd-iemmatrix, pd-lua, pd-mapping, pd-markex, pd-mjlib, pd-motex, pd-mrpeach, pd-opencv-data, pd-pdp-opencv, pd-pidip, pd-pool, pd-py, pd-readanysf, pd-windowing, pd-xsample, pd-zexy, puredata, python-csound, python-csoundac, qutecsound, supercollider, supercollider-bbcut2, supercollider-common, supercollider-common-dev, supercollider-dev, supercollider-doc, supercollider-emacs, supercollider-fougens-astrocade, supercollider-fougens-atari2600, supercollider-fougens-ay8910, supercollider-fougens-beep, supercollider-fougens-bit, supercollider-fougens-mzpokey, supercollider-fougens-pokey, supercollider-fougens-reddpcm, supercollider-fougens-redlbyl, supercollider-fougens-rednoise, supercollider-fougens-redphasor, supercollider-fougens-sid6581f, supercollider-fougens-slub, supercollider-fougens-sn76489, supercollider-gedit, supercollider-plugins, supercollider-quarks, supercollider-server, supercollider-server-dev, supercollider-vim
-Suggests: chuck, csoundx, faust, pd-abstractions, pd-arduino, pd-gem, pd-ggee, pd-gridflow, pd-hid, pd-libstdcpp, pd-lyonpotpourri, pd-msd, pd-ogg, pd-oscbank, pd-pix-opencv, pd-sigpack, pd-smlib, pd-unauthorized, supercollider-jtugens
+Recommends: csladspa, csound, csound-gui, csound-utils, mmm-mode, pd-abstractions, pd-container, pd-creb, pd-cxc, pd-ext13, pd-flext, pd-gem2pdp, pd-iemlib, pd-iemmatrix, pd-lua, pd-mapping, pd-markex, pd-mjlib, pd-motex, pd-mrpeach, pd-opencv-data, pd-pdp-opencv, pd-pidip, pd-pool, pd-py, pd-readanysf, pd-windowing, pd-xsample, pd-zexy, puredata, python-csound, python-csoundac, qutecsound, supercollider, supercollider-bbcut2, supercollider-common, supercollider-common-dev, supercollider-dev, supercollider-doc, supercollider-emacs, supercollider-fougens-astrocade, supercollider-fougens-atari2600, supercollider-fougens-ay8910, supercollider-fougens-beep, supercollider-fougens-bit, supercollider-fougens-mzpokey, supercollider-fougens-pokey, supercollider-fougens-reddpcm, supercollider-fougens-redlbyl, supercollider-fougens-rednoise, supercollider-fougens-redphasor, supercollider-fougens-sid6581f, supercollider-fougens-slub, supercollider-fougens-sn76489, supercollider-gedit, supercollider-jtugens, supercollider-plugins, supercollider-quarks, supercollider-server, supercollider-server-dev, supercollider-vim
+Suggests: chuck, csoundx, faust, pd-arduino, pd-gem, pd-ggee, pd-gridflow, pd-hid, pd-libstdcpp, pd-lyonpotpourri, pd-msd, pd-ogg, pd-oscbank, pd-pix-opencv, pd-sigpack, pd-smlib, pd-unauthorized
 Description: Packages for sound synthesis.
 
 Package: openstudiopro-synths
 Architecture: all
 Depends: openstudiopro-tasks (= ${binary:Version})
-Recommends: ams, bristol, phasex, puredata, yoshimi
-Suggests: aeolus, amsynth, azr3-jack, genpo, linuxsampler, minicomputer, proaudio-plugins-dssi, proaudio-plugins-lv2, proaudio-samplers, zynaddsubfx
+Recommends: ams, bristol, linuxsampler, phasex, puredata, yoshimi
+Suggests: aeolus, amsynth, azr3-jack, genpo, minicomputer, proaudio-plugins-dssi, proaudio-plugins-lv2, proaudio-samplers, zynaddsubfx
 Description: Metapackage with virtual instruments and synths.
  This metapackage will install synths and virtual instruments. 
 
