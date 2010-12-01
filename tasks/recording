@@ -14,9 +14,9 @@ Depends: qjackctl
 
 Depends: jackd
 
-Depends: openstudio-proaudio-plugins-lv2
+#Depends: openstudio-proaudio-plugins-lv2
 
-Depends: openstudio-proaudio-plugins-ladspa
+#Depends: openstudio-proaudio-plugins-ladspa
 
 Depends: jack-mixer
 
