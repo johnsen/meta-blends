@@ -8,6 +8,8 @@ Depends: a2jmidid
 
 Depends: jack-keyboard 
 
+Depends: vkeybd
+
 Depends: qsynth 
 
 Depends: fluid-soundfont-gm
@@ -16,15 +18,15 @@ Depends: aseqdump
 
 Depends: yoshimi
 
-Depends: qmidiarp
+#Depends: qmidiarp
 
-Depends: qmidiroute
+#Depends: qmidiroute
 
-Depends: qmidicontrol
+#Depends: qmidicontrol
 
 Depends: jack-smf-utils
 
-Depends: proaudio-plugins-dssi
+#Depends: proaudio-plugins-dssi
 
 Suggests: kmidimon
 

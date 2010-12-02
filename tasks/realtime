@@ -4,3 +4,4 @@ Description: This packages installs a realtime kernel for low latency.
 
 Depends: linux-realtime
 
+Depends: rtirq-init

@@ -82,7 +82,7 @@ Package: openstudiopro-guitar
 Architecture: all
 Depends: openstudiopro-tasks (= ${binary:Version})
 Recommends: fmit, guitarix, jackd, jconvolver, jconvolver-config-files, qjackctl, rakarrack
-Suggests: chordata, frescobaldi, lilypond, musescore, playitslowly, proaudio-plugins-ladspa, proaudio-plugins-lv2, stretchplayer, tuxguitar
+Suggests: chordata, frescobaldi, lilypond, musescore, playitslowly, stretchplayer, tuxguitar
 Description: Packages for playing with your (virtual) guitar gear.
  Packages which might be useful when playing guitar, adding guitar effects to your audio streams and / or editing notation and tablature for your guitar music.
 
