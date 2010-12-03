@@ -31,3 +31,7 @@ Depends: zynjacku
 Depends: calf-plugins
 
 Depends: mda-lv2
+
+Depends: lv2-c++-tools
+
+Depends: lv2-c++-tools-doc
