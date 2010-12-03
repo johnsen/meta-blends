@@ -85,6 +85,7 @@ Depends: pd-zexy
 
 Depends: faust
 Depends: sox
+Depends: libsox-fmt-all
 
 Suggests: chuck
 
