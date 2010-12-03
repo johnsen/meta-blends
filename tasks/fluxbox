@@ -8,7 +8,7 @@ Depends: thunar
 
 Depends: menu
 
-Depends: dmenu
+Depends: dwm-tools
 
 Depends: conky
 

@@ -34,13 +34,13 @@ Packages: list
  jconvolver
  jconvolver-config-files
 
-Task: openstudiopro-composition
+Task: openstudiopro-composing
 Section: debian-openstudiopro
 Description: Packages which might be useful when composing music.
  Metapackage which installs packages for composing music.
 Relevance: 10
 Key: 
- openstudiopro-composition
+ openstudiopro-composing
 Packages: list
 
 Task: openstudiopro-desktop
@@ -56,6 +56,34 @@ Packages: list
  ubuntu-restricted-extras
  pidgin
  thunderbird
+
+Task: openstudiopro-devel
+Section: debian-openstudiopro
+Description: Extra packages for developers and package compiling.
+ This metapackage will install additional software to compile audio software. 
+Relevance: 10
+Key: 
+ openstudiopro-devel
+Packages: list
+ subversion
+ automake
+ build-essential
+ cmake
+ dssi-dev
+ fluid
+ libasound2-dev
+ libfftw3-dev
+ libjack-dev
+ liblircclient-dev
+ liblo-dev
+ liblrdf0-dev
+ libmxml-dev
+ libqt4-dev
+ libsamplerate0-dev
+ libsndfile1-dev
+ libxml++2.6-dev
+ xutils-dev
+ zlib1g-dev
 
 Task: openstudiopro-djing
 Section: debian-openstudiopro
@@ -158,6 +186,8 @@ Packages: list
  jack-tools
  alsa-tools-gui
  alsa-tools
+ alsa-utils
+ vorbis-tools
 
 Task: openstudiopro-looping
 Section: debian-openstudiopro
@@ -180,12 +210,10 @@ Packages: list
  qtractor
  a2jmidid
  jack-keyboard
+ vkeybd
  qsynth
  fluid-soundfont-gm
  yoshimi
- qmidiarp
- qmidiroute
- qmidicontrol
 
 Task: openstudiopro-mixing
 Section: debian-openstudiopro
@@ -202,6 +230,9 @@ Packages: list
  meterbridge
  japa
  jdelay
+ sox
+ libsox-fmt-all
+ soundconverter
  jack-mixer
 
 Task: openstudiopro-multimedia
@@ -309,6 +340,8 @@ Packages: list
  slv2-jack
  zynjacku
  calf-plugins
+ lv2-c++-tools
+ lv2-c++-tools-doc
 
 Task: openstudiopro-realtime
 Section: debian-openstudiopro
@@ -319,6 +352,7 @@ Key:
  openstudiopro-realtime
 Packages: list
  linux-realtime
+ rtirq-init
 
 Task: openstudiopro-recording
 Section: debian-openstudiopro
@@ -413,6 +447,9 @@ Packages: list
  pd-windowing
  pd-xsample
  pd-zexy
+ faust
+ sox
+ libsox-fmt-all
 
 Task: openstudiopro-synths
 Section: debian-openstudiopro
