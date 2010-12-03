@@ -2,7 +2,7 @@ Task: openstudiopro-devel
 Description: Extra packages for developers and package compiling.
  This metapackage will install additional software to compile audio software. 
 
-Depends: git-all
+Depends: git	
 
 Depends: subversion
  
