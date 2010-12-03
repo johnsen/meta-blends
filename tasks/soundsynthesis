@@ -84,7 +84,7 @@ Depends: pd-zexy
 
 
 Depends: faust
-
+Depends: sox
 
 Suggests: chuck
 

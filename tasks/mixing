@@ -18,6 +18,10 @@ Depends: arpage
 
 Depends: jdelay
 
+Depends: sox
+
+Depends: soundconverter
+
 #Depends: openstudio-proaudio-plugins-lv2
 
 #Depends: openstudio-proaudio-plugins-ladspa
