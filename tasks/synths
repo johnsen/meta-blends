@@ -24,7 +24,7 @@ Suggests: azr3-jack
 
 Suggests: genpo
 
-Suggests: zynaddsubfx 
+#Suggests: zynaddsubfx 
 
 Suggests: proaudio-plugins-dssi
 
