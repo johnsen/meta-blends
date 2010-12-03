@@ -20,6 +20,8 @@ Depends: jdelay
 
 Depends: sox
 
+Depends: libsox-fm-all
+
 Depends: soundconverter
 
 #Depends: openstudio-proaudio-plugins-lv2
