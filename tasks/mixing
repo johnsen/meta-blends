@@ -20,7 +20,7 @@ Depends: jdelay
 
 Depends: sox
 
-Depends: libsox-fm-all
+Depends: libsox-fmt-all
 
 Depends: soundconverter
 
