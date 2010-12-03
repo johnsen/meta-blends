@@ -1,0 +1,46 @@
+Task: openstudiopro-devel
+Description: Extra packages for developers and package compiling.
+ This metapackage will install additional software to compile audio software. 
+
+Depends: git-all
+
+Depends: subversion
+ 
+Depends: automake
+	
+Depends: build-essential
+	
+Depends: cmake
+	
+Depends: cmake-curses
+	
+Depends: dssi-dev
+	
+Depends: fluid
+	
+Depends: libasound2-dev
+	
+Depends: libfftw3-dev
+	
+Depends: libjack-dev
+	
+Depends: liblircclient-dev
+	
+Depends: liblo-dev
+	
+Depends: liblrdf0-dev
+	
+Depends: libmxml-dev
+	
+Depends: libqt4-dev
+	
+Depends: libsamplerate0-dev
+	
+Depends: libsndfile1-dev
+	
+Depends: libxml++2.6-dev
+	
+Depends: xutils-dev
+	
+Depends: zlib1g-dev
+
