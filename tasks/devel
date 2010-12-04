@@ -6,6 +6,8 @@ Depends: git
 
 Depends: subversion
  
+Depends: cvs
+
 Depends: automake
 	
 Depends: build-essential
