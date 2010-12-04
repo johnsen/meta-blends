@@ -49,3 +49,11 @@ Depends: zlib1g-dev
 #linuxsampler
 
 Depends: uuid-dev
+
+Depends: bison
+
+Depends: lv2core
+
+Depends: libslv2-dev
+
+Depends: intltool  
