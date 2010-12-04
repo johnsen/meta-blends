@@ -12,6 +12,8 @@ Depends: vkeybd
 
 Depends: qsynth 
 
+Depends: fluidsynth
+
 Depends: fluid-soundfont-gm
 
 Depends: aseqdump
