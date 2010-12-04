@@ -46,3 +46,6 @@ Depends: xutils-dev
 	
 Depends: zlib1g-dev
 
+#linuxsampler
+
+Depends: uuid-dev
