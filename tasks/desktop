@@ -8,11 +8,9 @@ Depends: gtk-recordmydesktop
 
 Depends: ubuntu-restricted-extras
 
-Depends: pidgin 
+Depends: xchat 
 
 Depends: thunderbird 
-
-Suggests: xchat 
 
 Suggests: epiphany-browser 
 
