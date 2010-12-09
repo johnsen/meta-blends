@@ -1,12 +1,15 @@
 Task: Openstudiopro-samplers
 Description: Software samplers.
  
-Depends: linuxsampler
+#Depends: linuxsampler
 
 Depends: specimen
 
 #Suggests: traverso 
 
+Suggests: linuxsampler
+
+Suggests: qsampler
     
 
 

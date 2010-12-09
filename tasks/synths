@@ -10,7 +10,7 @@ Depends: ams
 
 Depends: bristol 
 
-Depends: linuxsampler 
+#Depends: linuxsampler 
 
 Depends: puredata
 
@@ -25,6 +25,10 @@ Suggests: azr3-jack
 Suggests: genpo
 
 #Suggests: zynaddsubfx 
+
+Suggests: linuxsampler
+
+Suggests: qsampler
 
 Suggests: proaudio-plugins-dssi
 
