@@ -98,7 +98,7 @@ Depends: libsox-fmt-all
 
 Suggests: chuck
 
-#Suggests: faust 
+ 
 
  
 
