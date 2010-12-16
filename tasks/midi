@@ -16,7 +16,7 @@ Depends: fluidsynth
 
 Depends: fluid-soundfont-gm
 
-Depends: aseqdump
+#Depends: aseqdump
 
 Depends: yoshimi
 
