@@ -18,6 +18,8 @@ Depends: arpage
 
 Depends: jdelay
 
+Depends: sonic-visualiser
+
 Depends: sox
 
 Depends: libsox-fmt-all
