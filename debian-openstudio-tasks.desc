@@ -173,6 +173,7 @@ Key:
  openstudio-guitar
 Packages: list
  rakarrack
+ guitarix
  jconvolver
  jconvolver-config-files
  jackd
@@ -204,6 +205,7 @@ Key:
  openstudio-looping
 Packages: list
  sooperlooper
+ smasher
 
 Task: openstudio-midi
 Section: debian-openstudio
@@ -516,6 +518,7 @@ Relevance: 10
 Key: 
  openstudio-timestretching
 Packages: list
+ paulstretch
  rubberband-cli
  rubberband-ladspa
  rubberband-vamp
@@ -527,6 +530,7 @@ Relevance: 10
 Key: 
  openstudio-trackers
 Packages: list
+ jacker
  milkytracker
 
 Task: openstudio-video

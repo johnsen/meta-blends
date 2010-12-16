@@ -89,8 +89,8 @@ Description: Packages for making and editing artwork.
 Package: openstudio-guitar
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: jackd, jconvolver, jconvolver-config-files, qjackctl, rakarrack
-Suggests: chordata, frescobaldi, guitarix, lilypond, musescore, playitslowly, stretchplayer, tuxguitar
+Recommends: guitarix, jackd, jconvolver, jconvolver-config-files, qjackctl, rakarrack
+Suggests: chordata, frescobaldi, lilypond, musescore, playitslowly, stretchplayer, tuxguitar
 Description: Packages for playing with your (virtual) guitar gear.
  Packages which might be useful when playing guitar, adding guitar effects to your audio streams and / or editing notation and tablature for your guitar music.
 
@@ -105,8 +105,8 @@ Description: JACK (Jack Audio Connection Kit) and ALSA related packages
 Package: openstudio-looping
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: sooperlooper
-Suggests: ardour, freewheeling, kluppe, non-sequencer, rosegarden, seq24, smasher
+Recommends: smasher, sooperlooper
+Suggests: ardour, freewheeling, kluppe, non-sequencer, rosegarden, seq24
 Description: Packages for looping music and audio.
  Metapackage which installs packages with the aim to loop your audio (and midi).
 
@@ -220,15 +220,15 @@ Description: Metapackage with virtual instruments and synths.
 Package: openstudio-timestretching
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: rubberband-cli, rubberband-ladspa, rubberband-vamp
-Suggests: ardour, paulstretch, qtractor, rosegarden, stretchplayer
+Recommends: paulstretch, rubberband-cli, rubberband-ladspa, rubberband-vamp
+Suggests: ardour, qtractor, rosegarden, stretchplayer
 Description: Packages for stretching music and audio.
 
 Package: openstudio-trackers
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: milkytracker
-Suggests: jacker, schism
+Recommends: jacker, milkytracker
+Suggests: schism
 Description: Vertical MIDI sequencers, or Trackers if you want.
 
 Package: openstudio-video

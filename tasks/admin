@@ -24,6 +24,6 @@ Depends: hwinfo
 
 Depends: powertop
 
-Depends: mc
+#Depends: mc
 
 Depends: cpufrequtils
