@@ -1,5 +1,5 @@
-debian-openstudiopro (0.1) lucid; urgency=low
+debian-openstudio (0.1) lucid; urgency=low
 
   * Initial release. 
 
- -- rosea grammostola <rosea.grammostola@gmail.com>  Sun, 31 Oct 2010 10:02:57 +0100
+ -- peerjam <linuxpeerjam@gmail.com>  Sun, 31 Oct 2010 10:02:57 +0100
