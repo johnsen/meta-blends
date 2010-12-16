@@ -16,7 +16,7 @@ Depends: git-core
 
 Depends: subversion
  
-Depends: svs
+Depends: cvs
 
 Depends: unp
 
