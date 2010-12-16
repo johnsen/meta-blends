@@ -20,6 +20,8 @@ Depends: blepvco
 
 Depends: jack-rack
 
+Depends: caps
+
 Depends: fil-plugins
 
 Depends: ladspa-sdk

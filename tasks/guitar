@@ -14,7 +14,7 @@ Depends: jconvolver-config-files
 
 #Depends: proaudio-plugins-lv2
 
-Depends: fmit
+#Depends: fmit
 
 Depends: jackd
 

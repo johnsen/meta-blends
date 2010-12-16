@@ -29,7 +29,9 @@ Depends: supercollider-quarks
 Depends: supercollider-server                 
 Depends: supercollider-server-dev             
 Depends: supercollider-vim                     
-
+Depends: swingosc
+Depends: supercollider-fougens-nesapu 
+Depends: supercollider-skugens
 
 Depends: csound
 Depends: csound-gui
@@ -81,6 +83,13 @@ Depends: pd-unauthorized
 Depends: pd-windowing                        
 Depends: pd-xsample                            
 Depends: pd-zexy              
+Depends: pd-arraysize
+Depends: pd-aubio
+Depends: pd-bassemu
+Depends: pd-beatpipe
+Depends: pd-comport
+Depends: pd-csound
+Depends: pd-plugin
 
 
 Depends: faust

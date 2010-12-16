@@ -12,7 +12,7 @@ Depends: smplayer
 
 Depends: ubuntu-restricted-extras
 
-Suggests: aqualung
+Depends: aqualung
 
 
 
