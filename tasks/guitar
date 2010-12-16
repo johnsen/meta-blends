@@ -6,6 +6,8 @@ Depends: rakarrack
 
 Depends: guitarix  
 
+Depends: jack-capture
+
 Depends: jconvolver
 
 Depends: jconvolver-config-files
@@ -26,7 +28,7 @@ Suggests: chordata
 
 Suggests: stretchplayer
 
-Suggests: playitslowly
+#Suggests: playitslowly
 
 Suggests: musescore
 
