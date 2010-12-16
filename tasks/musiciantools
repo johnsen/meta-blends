@@ -12,7 +12,7 @@ Suggests: fmit
 
 Suggests: stretchplayer
 
-Suggests: playitslowly
+#Suggests: playitslowly
 
 Suggests: impro-visor 
 
