@@ -18,7 +18,7 @@ Depends: whysynth
 
 Depends: xsynth-dssi
 
-Depends: linuxsampler-dssi
+#Depends: linuxsampler-dssi
 
 Depends: calf-plugins
 
