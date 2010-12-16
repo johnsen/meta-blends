@@ -6,9 +6,11 @@ Depends: musescore
 
 Depends: lilypond
 
+Depends: lilypond-data
+
 Suggests: nted
 
-Suggests: frescobaldi
+Depends: frescobaldi
 
 Suggests: denemo
 
