@@ -8,6 +8,8 @@ Depends: phasex
 
 Depends: ams 
 
+Depends: foo-yc20
+
 Depends: bristol 
 
 #Depends: linuxsampler 
@@ -30,9 +32,9 @@ Suggests: linuxsampler
 
 Suggests: qsampler
 
-Suggests: proaudio-plugins-dssi
+#Suggests: proaudio-plugins-dssi
 
-Suggests: proaudio-plugins-lv2
+#Suggests: proaudio-plugins-lv2
 
 Suggests: proaudio-samplers
 
