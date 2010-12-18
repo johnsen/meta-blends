@@ -46,7 +46,7 @@ Depends: xutils-dev
 	
 Depends: zlib1g-dev
 
-#linuxsampler
+#linuxsampler:
 
 Depends: uuid-dev
 
@@ -57,3 +57,24 @@ Depends: lv2core
 Depends: libslv2-dev
 
 Depends: intltool  
+
+#ardour:
+
+Depends: dh-buildinfo 
+Depends: libart-2.0-dev 
+Depends: libaubio-dev
+Depends: libboost-dev 
+Depends: libfftw3-dev 
+Depends: libgail-common 
+Depends: libgail-dev
+Depends: libglademm-2.4-dev 
+Depends: libgnomecanvas2-dev
+Depends: libgnomecanvasmm-2.6-dev 
+Depends: liblrdf0-dev
+Depends: libsoundtouch1-dev 
+Depends: libusb-dev 
+Depends: vamp-plugin-sdk
+
+#qtractor
+Depends: libmad0-dev 
+Depends: librubberband-dev
