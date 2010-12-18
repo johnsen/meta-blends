@@ -10,7 +10,7 @@ Depends: lilypond-data
 
 Suggests: nted
 
-Depends: frescobaldi
+Suggests: frescobaldi
 
 Suggests: denemo
 
