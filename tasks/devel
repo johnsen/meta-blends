@@ -14,7 +14,7 @@ Depends: build-essential
 	
 Depends: cmake
 	
-Depends: cmake-curses
+Depends: cmake-curses-gui
 	
 Depends: dssi-dev
 	

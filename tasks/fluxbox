@@ -8,6 +8,8 @@ Depends: thunar
 
 Depends: menu
 
+Depends: gtk-theme-switch
+
 Depends: dwm-tools
 
 Depends: conky

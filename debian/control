@@ -11,8 +11,7 @@ Standards-Version: 3.9.1
 Package: openstudio-admin
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: cpufrequtils, git-core, grsync, htop, hwinfo, mc, nautilus-open-terminal, powertop, subversion, sysv-rc-conf, unp, wget
-Suggests: svs
+Recommends: cpufrequtils, cvs, git-core, grsync, htop, hwinfo, nautilus-open-terminal, powertop, subversion, sysv-rc-conf, unp, wget
 Description: Extra packages for some admin tasks.
  This metapackage will install additional admin software. 
 
@@ -43,8 +42,8 @@ Description: Extra packages which makes the Desktop more useful or more easy to 
 Package: openstudio-devel
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: automake, bison, build-essential, cmake, cvs, dssi-dev, fluid, intltool, libasound2-dev, libfftw3-dev, libjack-dev, liblircclient-dev, liblo-dev, liblrdf0-dev, libmxml-dev, libqt4-dev, libsamplerate0-dev, libslv2-dev, libsndfile1-dev, libxml++2.6-dev, lv2core, subversion, uuid-dev, xutils-dev, zlib1g-dev
-Suggests: cmake-curses, git
+Recommends: automake, bison, build-essential, cmake, cvs, dssi-dev, fluid, git-core, intltool, libasound2-dev, libfftw3-dev, libjack-dev, liblircclient-dev, liblo-dev, liblrdf0-dev, libmxml-dev, libqt4-dev, libsamplerate0-dev, libslv2-dev, libsndfile1-dev, libxml++2.6-dev, lv2core, subversion, uuid-dev, xutils-dev, zlib1g-dev
+Suggests: cmake-curses
 Description: Extra packages for developers and package compiling.
  This metapackage will install additional software to compile audio software. 
 
@@ -89,16 +88,15 @@ Description: Packages for making and editing artwork.
 Package: openstudio-guitar
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: guitarix, jackd, jconvolver, jconvolver-config-files, qjackctl, rakarrack
-Suggests: chordata, frescobaldi, lilypond, musescore, playitslowly, stretchplayer, tuxguitar
+Recommends: guitarix, jack-capture, jackd, jconvolver, jconvolver-config-files, qjackctl, rakarrack
+Suggests: chordata, frescobaldi, lilypond, musescore, stretchplayer, tuxguitar
 Description: Packages for playing with your (virtual) guitar gear.
  Packages which might be useful when playing guitar, adding guitar effects to your audio streams and / or editing notation and tablature for your guitar music.
 
 Package: openstudio-jack
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: a2jmidid, alsa-tools, alsa-tools-gui, alsa-utils, jack-tools, jackd, qjackctl, vorbis-tools
-Suggests: patchage
+Recommends: a2jmidid, alsa-tools, alsa-tools-gui, alsa-utils, jack-tools, jackd, patchage, qjackctl, vorbis-tools
 Description: JACK (Jack Audio Connection Kit) and ALSA related packages
  This metapackage will install pro audio JACK (Jack Audio Connection Kit) and ALSA related packages.
 
@@ -114,7 +112,7 @@ Package: openstudio-midi
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
 Recommends: a2jmidid, fluid-soundfont-gm, fluidsynth, jack-keyboard, qsynth, qtractor, vkeybd, yoshimi
-Suggests: aseqdump, jack-smf-utils, kmidimon, lmms, mididings, muse, non-sequencer, rosegarden, seq24, swami
+Suggests: jack-smf-utils, kmidimon, lmms, mididings, muse, non-sequencer, rosegarden, seq24, swami
 Description: Openstudio pro audio MIDI related packages
  This metapackage will install pro audio MIDI related packages for openstudio.
 
@@ -122,7 +120,7 @@ Package: openstudio-mixing
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
 Recommends: audacity, gcdmaster, jack-mixer, jamin, japa, jdelay, jkmeter, libsox-fmt-all, meterbridge, soundconverter, sox
-Suggests: arpage, mhwaveedit, non-mixer, rezound
+Suggests: arpage, mhwaveedit, non-mixer, rezound, sonic-visualiser
 Description: Packages for mixing and mastering your music.
  This metapackage will install software to do mixing and mastering.
 
@@ -137,15 +135,15 @@ Package: openstudio-musiciantools
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
 Recommends: gtklick, klick, solfege
-Suggests: fmit, impro-visor, playitslowly, stretchplayer
+Suggests: fmit, impro-visor, stretchplayer
 Description: Packages for musicians: theory, metronome, instrumenttuner etc.
  Packages for musicians: theory, metronome, instrumenttuner etc.
 
 Package: openstudio-musicnotation
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: lilypond, musescore
-Suggests: denemo, frescobaldi, nted, rosegarden
+Recommends: frescobaldi, lilypond, lilypond-data, musescore
+Suggests: denemo, nted, rosegarden
 Description: Packages for editing music score.
  Packages for editing music score.
 
@@ -161,7 +159,6 @@ Package: openstudio-plugins-dssi
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
 Recommends: calf-plugins, dssi-host-jack, dssi-utils, fluidsynth-dssi, ghostess, hexter, whysynth, xsynth-dssi, zynaddsubfx-dssi
-Suggests: linuxsampler-dssi
 Description: DSSI plugins, synths and virtual instruments.
  This metapackage will install proaudio DSSI plugins packages.
 
@@ -199,7 +196,7 @@ Package: openstudio-samplers
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
 Recommends: specimen
-Suggests: linuxsampler, qsampler
+Suggests: linuxsampler, qsampler, swami
 Description: Software samplers.
 
 Package: openstudio-soundsynthesis
@@ -213,7 +210,7 @@ Package: openstudio-synths
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
 Recommends: ams, bristol, phasex, puredata, yoshimi
-Suggests: aeolus, amsynth, azr3-jack, genpo, linuxsampler, minicomputer, proaudio-plugins-dssi, proaudio-plugins-lv2, proaudio-samplers, qsampler
+Suggests: aeolus, amsynth, azr3-jack, foo-yc20, genpo, linuxsampler, minicomputer, proaudio-samplers, qsampler
 Description: Metapackage with virtual instruments and synths.
  This metapackage will install synths and virtual instruments. 
 

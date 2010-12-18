@@ -13,10 +13,10 @@ Packages: list
  grsync
  git-core
  subversion
+ cvs
  unp
  hwinfo
  powertop
- mc
  cpufrequtils
 
 Task: openstudio-ambisonics
@@ -66,6 +66,7 @@ Relevance: 10
 Key: 
  openstudio-devel
 Packages: list
+ git-core
  subversion
  cvs
  automake
@@ -174,6 +175,7 @@ Key:
 Packages: list
  rakarrack
  guitarix
+ jack-capture
  jconvolver
  jconvolver-config-files
  jackd
@@ -195,6 +197,7 @@ Packages: list
  alsa-tools
  alsa-utils
  vorbis-tools
+ patchage
 
 Task: openstudio-looping
 Section: debian-openstudio
@@ -281,6 +284,8 @@ Key:
 Packages: list
  musescore
  lilypond
+ lilypond-data
+ frescobaldi
 
 Task: openstudio-oomidibuild
 Section: debian-openstudio
