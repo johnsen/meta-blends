@@ -8,7 +8,7 @@ Depends: kdebase-bin
 
 Depends: cmake
 	
-Depends: cmake-curses
+#Depends: cmake-curses
 
 Depends: cmake-curses-gui
 	
