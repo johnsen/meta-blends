@@ -46,7 +46,7 @@ Depends: xutils-dev
 	
 Depends: zlib1g-dev
 
-#linuxsampler:
+#linuxsampler
 
 Depends: uuid-dev
 
@@ -58,8 +58,7 @@ Depends: libslv2-dev
 
 Depends: intltool  
 
-Depends: libtool
-#ardour:
+#ardour
 
 Depends: dh-buildinfo 
 Depends: libart-2.0-dev 
@@ -75,7 +74,3 @@ Depends: liblrdf0-dev
 Depends: libsoundtouch1-dev 
 Depends: libusb-dev 
 Depends: vamp-plugin-sdk
-
-#qtractor
-Depends: libmad0-dev 
-Depends: librubberband-dev
