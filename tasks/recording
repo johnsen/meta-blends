@@ -32,7 +32,7 @@ Suggests: rezound
 
 Suggests: timemachine
 
-Suggests: jack-oscrolloscope
+Depends: jack-oscrolloscope
 
 Suggests: jokosher
 

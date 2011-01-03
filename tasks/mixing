@@ -32,7 +32,7 @@ Depends: soundconverter
 
 Depends: jack-mixer 
 
-Suggests: non-mixer
+Depends: non-mixer
 
 Suggests: mhwaveedit
 

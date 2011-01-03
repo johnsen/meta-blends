@@ -8,7 +8,7 @@ Depends: a2jmidid
 
 Depends: jack-keyboard 
 
-Depends: vkeybd
+#Depends: vkeybd
 
 Depends: qsynth 
 
@@ -20,6 +20,8 @@ Depends: fluid-soundfont-gm
 
 Depends: yoshimi
 
+Depends: seq24
+
 #Depends: qmidiarp
 
 #Depends: qmidiroute
@@ -30,15 +32,17 @@ Depends: jack-smf-utils
 
 #Depends: proaudio-plugins-dssi
 
-Suggests: kmidimon
+Depends: kmidimon
+
+Depends: abcmidi
+
+Depends: rosegarden
 
 Suggests: mididings 
 
-Suggests: rosegarden
-
 Suggests: muse 
 
-Suggests: seq24 
+#Suggests: seq24 
 
 Suggests: non-sequencer 
 

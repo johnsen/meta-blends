@@ -4,6 +4,8 @@ Description: Extra packages for some admin tasks.
 
 Depends: wget 
 
+Depends: xterm
+
 Depends: htop 
 
 Depends: sysv-rc-conf 
