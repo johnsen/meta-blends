@@ -36,7 +36,7 @@ Depends: kmidimon
 
 Depends: abcmidi
 
-Depends: rosegarden
+Suggests: rosegarden
 
 Suggests: mididings 
 
