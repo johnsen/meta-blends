@@ -4,6 +4,8 @@ Description: Extra packages for developers and package compiling.
 
 Depends: subversion	
 	
+Depends: doxygen
+
 Depends: cmake
 	
 #Depends: cmake-curses
