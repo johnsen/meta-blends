@@ -12,6 +12,8 @@ Depends: jack-keyboard
 
 Depends: qsynth 
 
+Depends: aubio-tools
+
 Depends: fluidsynth
 
 Depends: fluid-soundfont-gm

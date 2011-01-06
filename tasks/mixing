@@ -4,6 +4,8 @@ Description: Packages for mixing and mastering your music.
 
 Depends: audacity 
 
+Depends: aubio-tools
+
 Depends: jamin 
 
 Depends: gcdmaster
