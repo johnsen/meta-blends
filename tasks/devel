@@ -79,3 +79,6 @@ Depends: vamp-plugin-sdk
 #qtractor
 Depends: libmad0-dev 
 Depends: librubberband-dev
+Depends: libvorbis-dev
+Depends: libmad0-dev
+Depends: ladspa-sdk
