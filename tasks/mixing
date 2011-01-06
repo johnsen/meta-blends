@@ -16,11 +16,11 @@ Depends: meterbridge
 
 Depends: japa
 
-Depends: arpage
+#Depends: arpage
 
 Depends: jdelay
 
-Depends: sonic-visualiser
+Suggests: sonic-visualiser
 
 Depends: sox
 
