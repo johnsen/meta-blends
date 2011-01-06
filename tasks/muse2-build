@@ -1,0 +1,33 @@
+Task: openstudiopro-muse2build
+Description: Extra packages for developers and package compiling.
+ This metapackage will install additional software to compile muse2 (oom branch) from source (www.openoctave.org). 
+
+Depends: subversion	
+	
+Depends: cmake
+	
+#Depends: cmake-curses
+
+Depends: cmake-curses-gui
+	
+Depends: dssi-dev
+	
+Depends: libfluidsynth-dev
+
+Depends: libasound2-dev
+	
+Depends: libfftw3-dev
+	
+Depends: libjack-dev
+	
+Depends: liblo-dev
+	
+Depends: liblrdf0-dev
+	
+Depends: libsamplerate0-dev
+	
+Depends: libsndfile1-dev
+	
+Depends: sndfile-programs
+
+Depends: libqt4-dev
