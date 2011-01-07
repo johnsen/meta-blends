@@ -11,15 +11,15 @@ Standards-Version: 3.9.1
 Package: openstudio-admin
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: cpufrequtils, cvs, git-core, grsync, htop, hwinfo, nautilus-open-terminal, powertop, subversion, sysv-rc-conf, unp, wget
+Recommends: cpufrequtils, cvs, git-core, grsync, htop, hwinfo, nautilus-open-terminal, powertop, subversion, sysv-rc-conf, unp, wget, xterm
 Description: Extra packages for some admin tasks.
  This metapackage will install additional admin software. 
 
 Package: openstudio-ambisonics
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: amb-plugins, ardour, jackd, japa, jconvolver, jconvolver-config-files, qjackctl
-Suggests: aliki, ambdec, drc, non-mixer, zita-rev1
+Recommends: amb-plugins, ardour, jackd, japa, jconvolver, jconvolver-config-files, qjackctl, zita-rev1
+Suggests: aliki, ambdec, drc, non-mixer
 Description: Packages for installing packages you need for working with ambisonics (3D surround sound) in Debian/ Ubuntu.
  This metapackage will install packages you need when working with ambisonics.
 
@@ -42,8 +42,7 @@ Description: Extra packages which makes the Desktop more useful or more easy to 
 Package: openstudio-devel
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: automake, bison, build-essential, cmake, cvs, dssi-dev, fluid, git-core, intltool, libasound2-dev, libfftw3-dev, libjack-dev, liblircclient-dev, liblo-dev, liblrdf0-dev, libmxml-dev, libqt4-dev, libsamplerate0-dev, libslv2-dev, libsndfile1-dev, libxml++2.6-dev, lv2core, subversion, uuid-dev, xutils-dev, zlib1g-dev
-Suggests: cmake-curses
+Recommends: automake, bison, build-essential, cmake, cmake-curses-gui, cvs, dh-buildinfo, dssi-dev, fluid, git-core, intltool, ladspa-sdk, libart-2.0-dev, libasound2-dev, libaubio-dev, libboost-dev, libfftw3-dev, libgail-common, libgail-dev, libglademm-2.4-dev, libgnomecanvas2-dev, libgnomecanvasmm-2.6-dev, libjack-dev, liblircclient-dev, liblo-dev, liblrdf0-dev, libmad0-dev, libmxml-dev, libqt4-dev, librubberband-dev, libsamplerate0-dev, libslv2-dev, libsndfile1-dev, libsoundtouch1-dev, libtool, libusb-dev, libvorbis-dev, libxml++2.6-dev, lv2core, subversion, uuid-dev, vamp-plugin-sdk, xutils-dev, zlib1g-dev
 Description: Extra packages for developers and package compiling.
  This metapackage will install additional software to compile audio software. 
 
@@ -73,7 +72,7 @@ Description: Packages for your firewire (ffado supported) audiocard / interface.
 Package: openstudio-fluxbox
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: conky, dwm-tools, fbdesk, fluxbox, menu, thunar, wmctrl, xfce4-power-manager
+Recommends: conky, dwm-tools, fbdesk, fluxbox, gtk-theme-switch, menu, thunar, wmctrl, xfce4-power-manager
 Description: Openstudio metapackage for installing Fluxbox Window Manager.
  This metapackage will install fluxbox WM and filebrowser thunar. If you don't want to have thunar, don't install this package and do 'sudo apt-get install fluxbox'.
 
@@ -100,6 +99,14 @@ Recommends: a2jmidid, alsa-tools, alsa-tools-gui, alsa-utils, jack-tools, jackd,
 Description: JACK (Jack Audio Connection Kit) and ALSA related packages
  This metapackage will install pro audio JACK (Jack Audio Connection Kit) and ALSA related packages.
 
+Package: openstudio-ladi-testing
+Architecture: all
+Depends: openstudio-tasks (= ${binary:Version})
+Recommends: ladish, laditools-git
+Suggests: pywmdockapps
+Description: Openstudiopro LADI, Linuxaudio session management, packages.
+ This metapackage will install packages for ladish.org. 
+
 Package: openstudio-looping
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
@@ -111,16 +118,16 @@ Description: Packages for looping music and audio.
 Package: openstudio-midi
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: a2jmidid, fluid-soundfont-gm, fluidsynth, jack-keyboard, qsynth, qtractor, vkeybd, yoshimi
-Suggests: jack-smf-utils, kmidimon, lmms, mididings, muse, non-sequencer, rosegarden, seq24, swami
+Recommends: a2jmidid, abcmidi, aubio-tools, fluid-soundfont-gm, fluidsynth, jack-keyboard, kmidimon, qsynth, qtractor, seq24, yoshimi
+Suggests: jack-smf-utils, lmms, mididings, muse, non-sequencer, rosegarden, swami
 Description: Openstudio pro audio MIDI related packages
  This metapackage will install pro audio MIDI related packages for openstudio.
 
 Package: openstudio-mixing
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: audacity, gcdmaster, jack-mixer, jamin, japa, jdelay, jkmeter, libsox-fmt-all, meterbridge, soundconverter, sox
-Suggests: arpage, mhwaveedit, non-mixer, rezound, sonic-visualiser
+Recommends: aubio-tools, audacity, gcdmaster, jack-mixer, jamin, japa, jdelay, jkmeter, libsox-fmt-all, meterbridge, non-mixer, soundconverter, sox
+Suggests: mhwaveedit, rezound, sonic-visualiser
 Description: Packages for mixing and mastering your music.
  This metapackage will install software to do mixing and mastering.
 
@@ -130,6 +137,13 @@ Depends: openstudio-tasks (= ${binary:Version})
 Recommends: aqualung, moc, smplayer, ubuntu-restricted-extras, vlc, vlc-plugin-jack
 Description: Packages which makes your multimedia tools complete...
  This metapackage will install additional 'consumer' multimedia  software.
+
+Package: openstudio-muse2-build
+Architecture: all
+Depends: openstudio-tasks (= ${binary:Version})
+Recommends: cmake, cmake-curses-gui, doxygen, dssi-dev, libasound2-dev, libfftw3-dev, libfluidsynth-dev, libjack-dev, liblo-dev, liblrdf0-dev, libqt4-dev, libsamplerate0-dev, libsndfile1-dev, sndfile-programs, subversion
+Description: Extra packages for developers and package compiling.
+ This metapackage will install additional software to compile muse2 (oom branch) from source (www.openoctave.org). 
 
 Package: openstudio-musiciantools
 Architecture: all
@@ -142,8 +156,8 @@ Description: Packages for musicians: theory, metronome, instrumenttuner etc.
 Package: openstudio-musicnotation
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: frescobaldi, lilypond, lilypond-data, musescore
-Suggests: denemo, nted, rosegarden
+Recommends: lilypond, lilypond-data, musescore
+Suggests: denemo, frescobaldi, nted, rosegarden
 Description: Packages for editing music score.
  Packages for editing music score.
 
@@ -151,7 +165,7 @@ Package: openstudio-oomidibuild
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
 Recommends: cmake, cmake-curses-gui, dssi-dev, kdebase-bin, kdelibs4-dev, kdelibs4c2a, libasound2-dev, libfftw3-dev, libjack-dev, liblo-dev, liblrdf0-dev, libsamplerate0-dev, libsndfile1-dev, sndfile-programs, sox
-Suggests: cmake-curses, git
+Suggests: git
 Description: Extra packages for developers and package compiling.
  This metapackage will install additional software to compile openoctave from source (www.openoctave.org). 
 
@@ -165,15 +179,16 @@ Description: DSSI plugins, synths and virtual instruments.
 Package: openstudio-plugins-ladspa
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: amb-plugins, ams, autotalent, blepvco, blop, caps, csladspa, fil-plugins, invada-studio-plugins-ladspa, jack-rack, jconvolver, jconvolver-config-files, ladspa-sdk, mcp-plugins, omins, rev-plugins, rubberband-ladspa, swh-plugins, tap-plugins, vco-plugins, wah-plugins
-Suggests: ambdec, zita-at1
+Recommends: amb-plugins, ams, autotalent, blepvco, blop, caps, csladspa, fil-plugins, invada-studio-plugins-ladspa, jack-rack, jcgui, jconvolver, jconvolver-config-files, ladspa-sdk, mcp-plugins, omins, rev-plugins, rubberband-ladspa, swh-plugins, tap-plugins, vco-plugins, wah-plugins, zita-at1
+Suggests: ambdec
 Description: Packages for installing LADSPA plugins.
  This metapackage will install proaudio LADSPA plugins.
 
 Package: openstudio-plugins-lv2
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: calf-plugins, invada-studio-plugins-lv2, liblv2dynparamhost1-1, liblv2dynparamplugin1-0, libslv2-9, libslv2-dev, lv2-c++-tools, lv2-c++-tools-doc, lv2core, lv2fil, lv2vocoder, mda-lv2, slv2-doc, slv2-jack, swh-lv2, zynjacku
+Recommends: calf-plugins, invada-studio-plugins-lv2, liblv2dynparamhost1-1, liblv2dynparamplugin1-0, libslv2-9, libslv2-dev, lv2-c++-tools, lv2-c++-tools-doc, lv2core, lv2fil, lv2vocoder, slv2-doc, slv2-jack, swh-lv2, zynjacku
+Suggests: mda-lv2
 Description: LV2 plugins, synths and virtual instruments.
  This metapackage will install proaudio LV2 plugins packages.
 
@@ -187,8 +202,8 @@ Description: This packages installs a realtime kernel for low latency.
 Package: openstudio-recording
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: ardour, jack-capture, jack-mixer, jackd, meterbridge, qjackctl, qtractor
-Suggests: ecasound, jack-oscrolloscope, jokosher, non-daw, non-mixer, rezound, timemachine, traverso
+Recommends: ardour, jack-capture, jack-mixer, jack-oscrolloscope, jackd, meterbridge, qjackctl, qtractor
+Suggests: ecasound, jokosher, non-daw, non-mixer, rezound, timemachine, traverso
 Description: Packages for recording music, sounds, audio.
  Packages for recording music, sounds, audio.
 
@@ -210,7 +225,7 @@ Package: openstudio-synths
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
 Recommends: ams, bristol, phasex, puredata, yoshimi
-Suggests: aeolus, amsynth, azr3-jack, foo-yc20, genpo, linuxsampler, minicomputer, proaudio-samplers, qsampler
+Suggests: aeolus, amsynth, azr3-jack, foo-yc20, genpo, ingen-svn, linuxsampler, minicomputer, proaudio-samplers, qsampler, zynaddsubfx
 Description: Metapackage with virtual instruments and synths.
  This metapackage will install synths and virtual instruments. 
 
@@ -231,8 +246,8 @@ Description: Vertical MIDI sequencers, or Trackers if you want.
 Package: openstudio-video
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: blender, ffmpeg, ffmpeg2theora, xjadeo
-Suggests: dvgrab, freemix, gjacktransport, kdenlive, kino, lives, qjadeo, stopmotion, subtitleeditor
+Recommends: blender, ffmpeg, ffmpeg2theora, gjacktransport, xjadeo
+Suggests: dvgrab, freemix, kdenlive, kino, lives, qjadeo, stopmotion, subtitleeditor
 Description: Openstudio Video packages
  This metapackage will install Video software. Some are especially usefull to combine video and sound.
 

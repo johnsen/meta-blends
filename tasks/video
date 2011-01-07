@@ -4,7 +4,7 @@ Description: Openstudio Video packages
 
 Depends: xjadeo 
 
-Depends: qjadeo 
+#Depends: qjadeo 
 
 Depends: blender 
 

@@ -7,6 +7,7 @@ Key:
  openstudio-admin
 Packages: list
  wget
+ xterm
  htop
  sysv-rc-conf
  nautilus-open-terminal
@@ -34,6 +35,7 @@ Packages: list
  japa
  jconvolver
  jconvolver-config-files
+ zita-rev1
 
 Task: openstudio-composing
 Section: debian-openstudio
@@ -72,6 +74,7 @@ Packages: list
  automake
  build-essential
  cmake
+ cmake-curses-gui
  dssi-dev
  fluid
  libasound2-dev
@@ -92,6 +95,23 @@ Packages: list
  lv2core
  libslv2-dev
  intltool
+ libtool
+ dh-buildinfo
+ libart-2.0-dev
+ libaubio-dev
+ libboost-dev
+ libgail-common
+ libgail-dev
+ libglademm-2.4-dev
+ libgnomecanvas2-dev
+ libgnomecanvasmm-2.6-dev
+ libsoundtouch1-dev
+ libusb-dev
+ vamp-plugin-sdk
+ libmad0-dev
+ librubberband-dev
+ libvorbis-dev
+ ladspa-sdk
 
 Task: openstudio-djing
 Section: debian-openstudio
@@ -143,6 +163,7 @@ Packages: list
  fluxbox
  thunar
  menu
+ gtk-theme-switch
  dwm-tools
  conky
  xfce4-power-manager
@@ -199,6 +220,17 @@ Packages: list
  vorbis-tools
  patchage
 
+Task: openstudio-ladi-testing
+Section: debian-openstudio
+Description: Openstudiopro LADI, Linuxaudio session management, packages.
+ This metapackage will install packages for ladish.org. 
+Relevance: 10
+Key: 
+ openstudio-ladi-testing
+Packages: list
+ laditools-git
+ ladish
+
 Task: openstudio-looping
 Section: debian-openstudio
 Description: Packages for looping music and audio.
@@ -221,11 +253,14 @@ Packages: list
  qtractor
  a2jmidid
  jack-keyboard
- vkeybd
  qsynth
+ aubio-tools
  fluidsynth
  fluid-soundfont-gm
  yoshimi
+ seq24
+ kmidimon
+ abcmidi
 
 Task: openstudio-mixing
 Section: debian-openstudio
@@ -236,6 +271,7 @@ Key:
  openstudio-mixing
 Packages: list
  audacity
+ aubio-tools
  jamin
  gcdmaster
  jkmeter
@@ -246,6 +282,7 @@ Packages: list
  libsox-fmt-all
  soundconverter
  jack-mixer
+ non-mixer
 
 Task: openstudio-multimedia
 Section: debian-openstudio
@@ -261,6 +298,30 @@ Packages: list
  smplayer
  ubuntu-restricted-extras
  aqualung
+
+Task: openstudio-muse2-build
+Section: debian-openstudio
+Description: Extra packages for developers and package compiling.
+ This metapackage will install additional software to compile muse2 (oom branch) from source (www.openoctave.org). 
+Relevance: 10
+Key: 
+ openstudio-muse2-build
+Packages: list
+ subversion
+ doxygen
+ cmake
+ cmake-curses-gui
+ dssi-dev
+ libfluidsynth-dev
+ libasound2-dev
+ libfftw3-dev
+ libjack-dev
+ liblo-dev
+ liblrdf0-dev
+ libsamplerate0-dev
+ libsndfile1-dev
+ sndfile-programs
+ libqt4-dev
 
 Task: openstudio-musiciantools
 Section: debian-openstudio
@@ -285,7 +346,6 @@ Packages: list
  musescore
  lilypond
  lilypond-data
- frescobaldi
 
 Task: openstudio-oomidibuild
 Section: debian-openstudio
@@ -356,8 +416,10 @@ Packages: list
  csladspa
  jconvolver
  jconvolver-config-files
+ zita-at1
  ams
  autotalent
+ jcgui
 
 Task: openstudio-plugins-lv2
 Section: debian-openstudio
@@ -380,7 +442,6 @@ Packages: list
  slv2-jack
  zynjacku
  calf-plugins
- mda-lv2
  lv2-c++-tools
  lv2-c++-tools-doc
 
@@ -410,6 +471,7 @@ Packages: list
  qjackctl
  jackd
  jack-mixer
+ jack-oscrolloscope
 
 Task: openstudio-samplers
 Section: debian-openstudio
@@ -550,4 +612,5 @@ Packages: list
  blender
  ffmpeg
  ffmpeg2theora
+ gjacktransport
 
