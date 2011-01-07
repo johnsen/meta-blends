@@ -67,14 +67,13 @@ deb-src http://ppa.launchpad.net/puredyne-team/ppa/ubuntu lucid main
 deb http://ppa.launchpad.net/peerjam/peerjam-stable/ubuntu lucid main
 
 #testing new(er) packages, use at your own risk!
-#deb http://ppa.launchpad.net/peerjam/peerjam-testing/ubuntu lucid main
+deb http://ppa.launchpad.net/peerjam/peerjam-testing/ubuntu lucid main
 
 #not supported! You're on your own when you get in trouble!
-#deb http://ppa.launchpad.net/peerjam/linuxvst/ubuntu lucid main 
+deb http://ppa.launchpad.net/peerjam/linuxvst/ubuntu lucid main 
 
-#frescobaldi ppa
-deb http://ppa.launchpad.net/frescobaldi/ppa/ubuntu lucid main 
-deb-src http://ppa.launchpad.net/frescobaldi/ppa/ubuntu lucid main 
+deb http://ppa.launchpad.net/peerjam/ladi/ubuntu lucid main 
+
 
 #musescore ppa
 deb http://ppa.launchpad.net/mscore-ubuntu/mscore-stable/ubuntu lucid main 
