@@ -20,7 +20,7 @@ Depends: jackd
 
 Depends: jack-mixer
 
-Suggests: non-mixer
+Depends: non-mixer
 
 Suggests: non-daw
 
