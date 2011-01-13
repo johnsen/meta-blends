@@ -8,6 +8,10 @@ Depends: xjadeo
 
 Depends: blender 
 
+Depends: lives
+
+Depends: openshot
+
 Depends: ffmpeg 
 
 Depends: ffmpeg2theora
@@ -16,7 +20,7 @@ Depends: gjacktransport
 
 Suggests: kdenlive
 
-Suggests: lives 
+#Suggests: lives 
 
 Suggests: dvgrab 
 
