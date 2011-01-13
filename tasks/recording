@@ -4,6 +4,8 @@ Description: Packages for recording music, sounds, audio.
  
 Depends: ardour 
 
+Depends: timemachine
+
 Depends: qtractor 
 
 Depends: jack-capture 
