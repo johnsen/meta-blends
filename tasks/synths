@@ -8,7 +8,7 @@ Depends: phasex
 
 Depends: ams 
 
-Depends: foo-yc20
+Suggests: foo-yc20
 
 Depends: bristol 
 

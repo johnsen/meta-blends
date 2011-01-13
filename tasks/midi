@@ -24,6 +24,8 @@ Depends: yoshimi
 
 Depends: seq24
 
+Depends: gmidimonitor
+
 #Depends: qmidiarp
 
 #Depends: qmidiroute
@@ -34,7 +36,7 @@ Depends: jack-smf-utils
 
 #Depends: proaudio-plugins-dssi
 
-Depends: kmidimon
+Suggests: kmidimon
 
 Depends: abcmidi
 

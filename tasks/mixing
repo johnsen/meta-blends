@@ -20,7 +20,7 @@ Depends: japa
 
 Depends: jdelay
 
-Suggests: sonic-visualiser
+Depends: sonic-visualiser
 
 Depends: sox
 

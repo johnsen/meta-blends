@@ -44,6 +44,8 @@ Depends: jconvolver-config-files
 
 Depends: zita-at1
 
+Depends: zita-rev1
+
 Depends: ams
 
 Depends: autotalent
