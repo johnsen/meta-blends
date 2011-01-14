@@ -6,6 +6,8 @@ Depends: lv2vocoder
 
 Depends: swh-lv2
 
+Depends: ir-lv2
+
 Depends: lv2fil 
 
 Depends: lv2core 
