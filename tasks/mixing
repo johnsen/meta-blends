@@ -6,7 +6,7 @@ Depends: audacity
 
 Depends: aubio-tools
 
-Depends: jamin 
+Suggests: jamin 
 
 Depends: gcdmaster
 
