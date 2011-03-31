@@ -91,7 +91,7 @@ Depends: pd-comport
 Depends: pd-csound
 Depends: pd-plugin
 
-
+Depends: din
 Depends: faust
 Depends: sox
 Depends: libsox-fmt-all

@@ -12,6 +12,10 @@ Depends: xchat
 
 Depends: thunderbird 
 
+Depends: pidgin
+
+Depends: pidgin-otr
+
 Suggests: epiphany-browser 
 
 
