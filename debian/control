@@ -102,7 +102,7 @@ Description: JACK (Jack Audio Connection Kit) and ALSA related packages
 Package: openstudio-ladi-testing
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: ladish, laditools-git
+Recommends: a2jmidid, jackd, ladish, laditools
 Suggests: pywmdockapps
 Description: Openstudiopro LADI, Linuxaudio session management, packages.
  This metapackage will install packages for ladish.org. 
@@ -118,16 +118,16 @@ Description: Packages for looping music and audio.
 Package: openstudio-midi
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: a2jmidid, abcmidi, aubio-tools, fluid-soundfont-gm, fluidsynth, jack-keyboard, kmidimon, qsynth, qtractor, seq24, yoshimi
-Suggests: jack-smf-utils, lmms, mididings, muse, non-sequencer, rosegarden, swami
+Recommends: a2jmidid, abcmidi, aubio-tools, fluid-soundfont-gm, fluidsynth, gmidimonitor, jack-keyboard, qsynth, qtractor, seq24, yoshimi
+Suggests: jack-smf-utils, kmidimon, lmms, mididings, muse, non-sequencer, rosegarden, swami
 Description: Openstudio pro audio MIDI related packages
  This metapackage will install pro audio MIDI related packages for openstudio.
 
 Package: openstudio-mixing
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: aubio-tools, audacity, gcdmaster, jack-mixer, jamin, japa, jdelay, jkmeter, libsox-fmt-all, meterbridge, non-mixer, soundconverter, sox
-Suggests: mhwaveedit, rezound, sonic-visualiser
+Recommends: aubio-tools, audacity, gcdmaster, jack-mixer, japa, jdelay, jkmeter, libsox-fmt-all, meterbridge, non-mixer, sonic-visualiser, soundconverter, sox
+Suggests: jamin, mhwaveedit, rezound
 Description: Packages for mixing and mastering your music.
  This metapackage will install software to do mixing and mastering.
 
@@ -161,14 +161,6 @@ Suggests: denemo, frescobaldi, nted, rosegarden
 Description: Packages for editing music score.
  Packages for editing music score.
 
-Package: openstudio-oomidibuild
-Architecture: all
-Depends: openstudio-tasks (= ${binary:Version})
-Recommends: cmake, cmake-curses-gui, dssi-dev, kdebase-bin, kdelibs4-dev, kdelibs4c2a, libasound2-dev, libfftw3-dev, libjack-dev, liblo-dev, liblrdf0-dev, libsamplerate0-dev, libsndfile1-dev, sndfile-programs, sox
-Suggests: git
-Description: Extra packages for developers and package compiling.
- This metapackage will install additional software to compile openoctave from source (www.openoctave.org). 
-
 Package: openstudio-plugins-dssi
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
@@ -179,15 +171,15 @@ Description: DSSI plugins, synths and virtual instruments.
 Package: openstudio-plugins-ladspa
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: amb-plugins, ams, autotalent, blepvco, blop, caps, csladspa, fil-plugins, invada-studio-plugins-ladspa, jack-rack, jcgui, jconvolver, jconvolver-config-files, ladspa-sdk, mcp-plugins, omins, rev-plugins, rubberband-ladspa, swh-plugins, tap-plugins, vco-plugins, wah-plugins, zita-at1
-Suggests: ambdec
+Recommends: amb-plugins, ams, autotalent, blepvco, blop, caps, csladspa, fil-plugins, invada-studio-plugins-ladspa, jack-rack, jconvolver, jconvolver-config-files, ladspa-sdk, mcp-plugins, omins, rev-plugins, rubberband-ladspa, swh-plugins, tap-plugins, vco-plugins, wah-plugins, zita-at1
+Suggests: ambdec, jcgui, zita-rev1
 Description: Packages for installing LADSPA plugins.
  This metapackage will install proaudio LADSPA plugins.
 
 Package: openstudio-plugins-lv2
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: calf-plugins, invada-studio-plugins-lv2, liblv2dynparamhost1-1, liblv2dynparamplugin1-0, libslv2-9, libslv2-dev, lv2-c++-tools, lv2-c++-tools-doc, lv2core, lv2fil, lv2vocoder, slv2-doc, slv2-jack, swh-lv2, zynjacku
+Recommends: calf-plugins, invada-studio-plugins-lv2, ir-lv2, liblv2dynparamhost1-1, liblv2dynparamplugin1-0, libslv2-9, libslv2-dev, lv2-c++-tools, lv2-c++-tools-doc, lv2core, lv2fil, lv2vocoder, slv2-doc, slv2-jack, swh-lv2, zynjacku
 Suggests: mda-lv2
 Description: LV2 plugins, synths and virtual instruments.
  This metapackage will install proaudio LV2 plugins packages.
@@ -202,8 +194,8 @@ Description: This packages installs a realtime kernel for low latency.
 Package: openstudio-recording
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: ardour, jack-capture, jack-mixer, jack-oscrolloscope, jackd, meterbridge, qjackctl, qtractor
-Suggests: ecasound, jokosher, non-daw, non-mixer, rezound, timemachine, traverso
+Recommends: ardour, jack-capture, jack-mixer, jack-oscrolloscope, jackd, meterbridge, non-mixer, qjackctl, qtractor, timemachine
+Suggests: ecasound, jokosher, non-daw, rezound, traverso
 Description: Packages for recording music, sounds, audio.
  Packages for recording music, sounds, audio.
 
@@ -232,8 +224,8 @@ Description: Metapackage with virtual instruments and synths.
 Package: openstudio-timestretching
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: paulstretch, rubberband-cli, rubberband-ladspa, rubberband-vamp
-Suggests: ardour, qtractor, rosegarden, stretchplayer
+Recommends: paulstretch, rubberband-cli, rubberband-ladspa, rubberband-vamp, stretchplayer
+Suggests: ardour, qtractor, rosegarden
 Description: Packages for stretching music and audio.
 
 Package: openstudio-trackers
@@ -246,8 +238,8 @@ Description: Vertical MIDI sequencers, or Trackers if you want.
 Package: openstudio-video
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: blender, ffmpeg, ffmpeg2theora, gjacktransport, xjadeo
-Suggests: dvgrab, freemix, kdenlive, kino, lives, qjadeo, stopmotion, subtitleeditor
+Recommends: blender, ffmpeg, ffmpeg2theora, gjacktransport, lives, openshot, xjadeo
+Suggests: dvgrab, freemix, kdenlive, kino, stopmotion, subtitleeditor
 Description: Openstudio Video packages
  This metapackage will install Video software. Some are especially usefull to combine video and sound.
 

@@ -32,6 +32,7 @@ Depends: supercollider-vim
 Depends: swingosc
 Depends: supercollider-fougens-nesapu 
 Depends: supercollider-skugens
+Depends: w3m-el
 
 Depends: csound
 Depends: csound-gui

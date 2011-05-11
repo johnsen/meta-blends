@@ -228,7 +228,9 @@ Relevance: 10
 Key: 
  openstudio-ladi-testing
 Packages: list
- laditools-git
+ laditools
+ jackd
+ a2jmidid
  ladish
 
 Task: openstudio-looping
@@ -259,7 +261,7 @@ Packages: list
  fluid-soundfont-gm
  yoshimi
  seq24
- kmidimon
+ gmidimonitor
  abcmidi
 
 Task: openstudio-mixing
@@ -272,12 +274,12 @@ Key:
 Packages: list
  audacity
  aubio-tools
- jamin
  gcdmaster
  jkmeter
  meterbridge
  japa
  jdelay
+ sonic-visualiser
  sox
  libsox-fmt-all
  soundconverter
@@ -347,30 +349,6 @@ Packages: list
  lilypond
  lilypond-data
 
-Task: openstudio-oomidibuild
-Section: debian-openstudio
-Description: Extra packages for developers and package compiling.
- This metapackage will install additional software to compile openoctave from source (www.openoctave.org). 
-Relevance: 10
-Key: 
- openstudio-oomidibuild
-Packages: list
- kdebase-bin
- cmake
- cmake-curses-gui
- dssi-dev
- libasound2-dev
- libfftw3-dev
- libjack-dev
- liblo-dev
- liblrdf0-dev
- libsamplerate0-dev
- libsndfile1-dev
- kdelibs4c2a
- sox
- sndfile-programs
- kdelibs4-dev
-
 Task: openstudio-plugins-dssi
 Section: debian-openstudio
 Description: DSSI plugins, synths and virtual instruments.
@@ -419,7 +397,6 @@ Packages: list
  zita-at1
  ams
  autotalent
- jcgui
 
 Task: openstudio-plugins-lv2
 Section: debian-openstudio
@@ -431,6 +408,7 @@ Key:
 Packages: list
  lv2vocoder
  swh-lv2
+ ir-lv2
  lv2fil
  lv2core
  libslv2-dev
@@ -465,12 +443,14 @@ Key:
  openstudio-recording
 Packages: list
  ardour
+ timemachine
  qtractor
  jack-capture
  meterbridge
  qjackctl
  jackd
  jack-mixer
+ non-mixer
  jack-oscrolloscope
 
 Task: openstudio-samplers
@@ -589,6 +569,7 @@ Packages: list
  rubberband-cli
  rubberband-ladspa
  rubberband-vamp
+ stretchplayer
 
 Task: openstudio-trackers
 Section: debian-openstudio
@@ -610,6 +591,8 @@ Key:
 Packages: list
  xjadeo
  blender
+ lives
+ openshot
  ffmpeg
  ffmpeg2theora
  gjacktransport

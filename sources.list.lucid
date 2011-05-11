@@ -53,8 +53,9 @@ deb http://security.ubuntu.com/ubuntu lucid-security multiverse
 deb-src http://security.ubuntu.com/ubuntu lucid-security multiverse
 
 #realtime kernels
-deb http://ppa.launchpad.net/abogani/ppa/ubuntu lucid main
-deb-src http://ppa.launchpad.net/abogani/ppa/ubuntu lucid main
+deb http://download.tuxfamily.org/tangostudio/ lucid-lowlatency main 
+#deb http://ppa.launchpad.net/abogani/ppa/ubuntu lucid main
+#deb-src http://ppa.launchpad.net/abogani/ppa/ubuntu lucid main
 #stable
 deb http://ftp5.gwdg.de/pub/opensuse/repositories/home:/roooz:/lucid/xUbuntu_10.04/ ./
 
