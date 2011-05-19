@@ -4,6 +4,8 @@ Description: Openstudio metapackage for installing Fluxbox Window Manager.
 
 Depends: fluxbox 
 
+Depends: nitrogen
+
 Depends: thunar
 
 Depends: menu
