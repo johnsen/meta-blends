@@ -22,6 +22,6 @@ Depends: xsynth-dssi
 
 Depends: calf-plugins
 
-
+Depends: linuxsampler-dssi
 
 

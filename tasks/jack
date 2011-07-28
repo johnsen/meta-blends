@@ -16,11 +16,14 @@ Depends: alsa-tools
 
 Depends: alsa-utils
 
+Depends: mudita24
+
 Depends: vorbis-tools
 
 Depends: patchage
 
+Depends: aj-snapshot
 
+Depends: midisport-firmware
 
-
-
+Depends: nanonoise

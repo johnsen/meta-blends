@@ -52,39 +52,28 @@ deb-src http://security.ubuntu.com/ubuntu lucid-security universe
 deb http://security.ubuntu.com/ubuntu lucid-security multiverse
 deb-src http://security.ubuntu.com/ubuntu lucid-security multiverse
 
-# Tango Studio Desktop
-#deb http://download.tuxfamily.org/tangostudio/ tangostudio main #Tango Studio Desktop - 1.2 "karmasutra"
-#deb-src http://download.tuxfamily.org/tangostudio/ tangostudio main #Tango Studio Desktop (source) - 1.2 "karmasutra"
-
-# Softwares
-deb http://download.tuxfamily.org/tangostudio/ lucid main #Tango Studio Softwares - 1.2 "karmasutra"
-#deb-src http://download.tuxfamily.org/tangostudio/ lucid main #Tango Studio Softwares (source) - 1.2 "karmasutra"
-
-# Softwares Unstable
-deb http://download.tuxfamily.org/tangostudio/ lucid-unstable main #Tango Studio Softwares Unstable - 1.2 "karmasutra"
-#deb-src http://download.tuxfamily.org/tangostudio/ lucid-unstable main #Tango Studio Softwares Unstable (source) - 1.2 "karmasutra"
-
-# Tango Studio Kernels
-deb http://download.tuxfamily.org/tangostudio/ lucid-lowlatency main #Tango Studio Kernels - 1.2 "karmasutra"
-# deb-src http://download.tuxfamily.org/tangostudio/ lucid-lowlatency main #Tango Studio Kernels (source) - 1.2 "karmasutra"
-
-# ALSA Backports
-deb http://download.tuxfamily.org/tangostudio/ lucid-alsa main #ALSA Backports - 1.2 "karmasutra"
-# deb-src http://download.tuxfamily.org/tangostudio/ lucid-alsa main #ALSA Backports (source) - 1.2 "karmasutra"
-
-# JACK 2 and Ladish
-deb http://download.tuxfamily.org/tangostudio/ lucid-ladish main #JACK 2 & Ladish - 1.2 "karmasutra"
-# deb-src http://download.tuxfamily.org/tangostudio/ lucid-ladish main #JACK 2 & Ladish (source) - 1.2 "karmasutra"
-
+#realtime kernels
+deb http://download.tuxfamily.org/tangostudio/ lucid-lowlatency main 
+#deb http://ppa.launchpad.net/abogani/ppa/ubuntu lucid main
+#deb-src http://ppa.launchpad.net/abogani/ppa/ubuntu lucid main
+#stable
+deb http://ftp5.gwdg.de/pub/opensuse/repositories/home:/roooz:/lucid/xUbuntu_10.04/ ./
 
 #puredyne repo for puredata, supercollider and other soundsynthesis software
 deb http://ppa.launchpad.net/puredyne-team/ppa/ubuntu lucid main 
 deb-src http://ppa.launchpad.net/puredyne-team/ppa/ubuntu lucid main 
 
-#extra
-deb http://ftp5.gwdg.de/pub/opensuse/repositories/home:/open-studio:/extra/xUbuntu_10.04/ ./
+ppa.launchpad.net/mscore-ubuntu/mscore-stable/ubuntu lucid main 
 
-#ppa
-#stable
-deb http://ppa.launchpad.net/openstudio/stable/ubuntu lucid main
+#lmms ppa
+deb http://ppa.launchpad.net/tobydox/lmms/ubuntu lucid main 
+deb-src http://ppa.launchpad.net/tobydox/lmms/ubuntu lucid main 
+
+#dominic sacre ppa 
+deb http://ppa.launchpad.net/dooooomi/ppa/ubuntu lucid main 
+deb-src http://ppa.launchpad.net/dooooomi/ppa/ubuntu lucid main 
+
+#mixxx ppa
+deb http://ppa.launchpad.net/mixxx/mixxx/ubuntu lucid main 
+deb-src http://ppa.launchpad.net/mixxx/mixxx/ubuntu lucid main 
 

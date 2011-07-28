@@ -1,0 +1,13 @@
+Task: Openstudiopro-plugins-fst
+Description: fst plugins, synths and virtual instruments.
+ This metapackage will install proaudio fst plugins packages.
+
+Depends: fst
+
+Depends: festige
+
+Depends: dssi-vst
+
+Depends: dssi-vst-ladspa
+
+Depends: wineasio

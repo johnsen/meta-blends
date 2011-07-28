@@ -12,6 +12,7 @@ Suggests: foo-yc20
 
 Depends: bristol 
 
+Suggests: monobristol
 #Depends: linuxsampler 
 
 Depends: puredata

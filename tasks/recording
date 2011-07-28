@@ -16,6 +16,8 @@ Depends: qjackctl
 
 Depends: jackd
 
+Depends: xjadeo
+
 #Depends: openstudio-proaudio-plugins-lv2
 
 #Depends: openstudio-proaudio-plugins-ladspa

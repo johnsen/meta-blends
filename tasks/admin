@@ -12,7 +12,7 @@ Depends: sysv-rc-conf
 
 Depends: nautilus-open-terminal 
 
-Depends: grsync
+#Depends: grsync
 
 Depends: git-core
 

@@ -32,7 +32,7 @@ Depends: zynjacku
 
 Depends: calf-plugins
 
-Depends: mda-lv2-plugins
+Suggests: mda-lv2
 
 Depends: lv2-c++-tools
 
