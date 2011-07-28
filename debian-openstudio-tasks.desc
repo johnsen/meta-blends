@@ -11,7 +11,6 @@ Packages: list
  htop
  sysv-rc-conf
  nautilus-open-terminal
- grsync
  git-core
  subversion
  cvs
@@ -59,6 +58,8 @@ Packages: list
  ubuntu-restricted-extras
  xchat
  thunderbird
+ pidgin
+ pidgin-otr
 
 Task: openstudio-devel
 Section: debian-openstudio
@@ -161,6 +162,7 @@ Key:
  openstudio-fluxbox
 Packages: list
  fluxbox
+ nitrogen
  thunar
  menu
  gtk-theme-switch
@@ -169,6 +171,7 @@ Packages: list
  xfce4-power-manager
  wmctrl
  fbdesk
+ idesk
 
 Task: openstudio-graphics
 Section: debian-openstudio
@@ -219,6 +222,8 @@ Packages: list
  alsa-utils
  vorbis-tools
  patchage
+ midisport-firmware
+ nanonoise
 
 Task: openstudio-ladi-testing
 Section: debian-openstudio
@@ -299,7 +304,6 @@ Packages: list
  moc
  smplayer
  ubuntu-restricted-extras
- aqualung
 
 Task: openstudio-muse2-build
 Section: debian-openstudio
@@ -366,6 +370,21 @@ Packages: list
  whysynth
  xsynth-dssi
  calf-plugins
+ linuxsampler-dssi
+
+Task: openstudio-plugins-fst
+Section: debian-openstudio
+Description: fst plugins, synths and virtual instruments.
+ This metapackage will install proaudio fst plugins packages.
+Relevance: 10
+Key: 
+ openstudio-plugins-fst
+Packages: list
+ fst
+ festige
+ dssi-vst
+ dssi-vst-ladspa
+ wineasio
 
 Task: openstudio-plugins-ladspa
 Section: debian-openstudio
@@ -397,6 +416,7 @@ Packages: list
  zita-at1
  ams
  autotalent
+ ladspa-foo-plugins
 
 Task: openstudio-plugins-lv2
 Section: debian-openstudio
@@ -407,8 +427,6 @@ Key:
  openstudio-plugins-lv2
 Packages: list
  lv2vocoder
- swh-lv2
- ir-lv2
  lv2fil
  lv2core
  libslv2-dev
@@ -420,8 +438,10 @@ Packages: list
  slv2-jack
  zynjacku
  calf-plugins
+ mda-lv2-plugins
  lv2-c++-tools
  lv2-c++-tools-doc
+ linuxsampler-lv2
 
 Task: openstudio-realtime
 Section: debian-openstudio
@@ -449,9 +469,9 @@ Packages: list
  meterbridge
  qjackctl
  jackd
+ xjadeo
  jack-mixer
  non-mixer
- jack-oscrolloscope
 
 Task: openstudio-samplers
 Section: debian-openstudio
@@ -500,6 +520,7 @@ Packages: list
  swingosc
  supercollider-fougens-nesapu
  supercollider-skugens
+ w3m-el
  csound
  csound-gui
  csound-utils
@@ -516,20 +537,25 @@ Packages: list
  pd-ext13
  pd-flext
  pd-gem2pdp
+ pd-ggee
+ pd-hid
  pd-iemlib
  pd-iemmatrix
  pd-lua
+ pd-lyonpotpourri
  pd-mapping
  pd-markex
  pd-mjlib
  pd-motex
  pd-mrpeach
  pd-opencv-data
+ pd-oscbank
  pd-pdp-opencv
  pd-pidip
  pd-pool
  pd-py
  pd-readanysf
+ pd-sigpack
  pd-windowing
  pd-xsample
  pd-zexy
@@ -540,6 +566,7 @@ Packages: list
  pd-comport
  pd-csound
  pd-plugin
+ din
  faust
  sox
  libsox-fmt-all

@@ -91,6 +91,7 @@ Depends: pd-beatpipe
 Depends: pd-comport
 Depends: pd-csound
 Depends: pd-plugin
+Depends: gem
 
 Depends: din
 Depends: faust

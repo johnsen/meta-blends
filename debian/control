@@ -11,7 +11,7 @@ Standards-Version: 3.9.1
 Package: openstudio-admin
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: cpufrequtils, cvs, git-core, grsync, htop, hwinfo, nautilus-open-terminal, powertop, subversion, sysv-rc-conf, unp, wget, xterm
+Recommends: cpufrequtils, cvs, git-core, htop, hwinfo, nautilus-open-terminal, powertop, subversion, sysv-rc-conf, unp, wget, xterm
 Description: Extra packages for some admin tasks.
  This metapackage will install additional admin software. 
 
@@ -34,7 +34,7 @@ Description: Packages which might be useful when composing music.
 Package: openstudio-desktop
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: gtk-recordmydesktop, shutter, thunderbird, ubuntu-restricted-extras, xchat
+Recommends: gtk-recordmydesktop, pidgin, pidgin-otr, shutter, thunderbird, ubuntu-restricted-extras, xchat
 Suggests: epiphany-browser
 Description: Extra packages which makes the Desktop more useful or more easy to use.
  This metapackage will install additional Desktop software. 
@@ -72,7 +72,7 @@ Description: Packages for your firewire (ffado supported) audiocard / interface.
 Package: openstudio-fluxbox
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: conky, dwm-tools, fbdesk, fluxbox, gtk-theme-switch, menu, thunar, wmctrl, xfce4-power-manager
+Recommends: conky, dwm-tools, fbdesk, fluxbox, gtk-theme-switch, idesk, menu, nitrogen, thunar, wmctrl, xfce4-power-manager
 Description: Openstudio metapackage for installing Fluxbox Window Manager.
  This metapackage will install fluxbox WM and filebrowser thunar. If you don't want to have thunar, don't install this package and do 'sudo apt-get install fluxbox'.
 
@@ -95,7 +95,8 @@ Description: Packages for playing with your (virtual) guitar gear.
 Package: openstudio-jack
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: a2jmidid, alsa-tools, alsa-tools-gui, alsa-utils, jack-tools, jackd, patchage, qjackctl, vorbis-tools
+Recommends: a2jmidid, alsa-tools, alsa-tools-gui, alsa-utils, jack-tools, jackd, midisport-firmware, nanonoise, patchage, qjackctl, vorbis-tools
+Suggests: aj-snapshot, mudita24
 Description: JACK (Jack Audio Connection Kit) and ALSA related packages
  This metapackage will install pro audio JACK (Jack Audio Connection Kit) and ALSA related packages.
 
@@ -134,7 +135,8 @@ Description: Packages for mixing and mastering your music.
 Package: openstudio-multimedia
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: aqualung, moc, smplayer, ubuntu-restricted-extras, vlc, vlc-plugin-jack
+Recommends: moc, smplayer, ubuntu-restricted-extras, vlc, vlc-plugin-jack
+Suggests: aqualung
 Description: Packages which makes your multimedia tools complete...
  This metapackage will install additional 'consumer' multimedia  software.
 
@@ -164,14 +166,21 @@ Description: Packages for editing music score.
 Package: openstudio-plugins-dssi
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: calf-plugins, dssi-host-jack, dssi-utils, fluidsynth-dssi, ghostess, hexter, whysynth, xsynth-dssi, zynaddsubfx-dssi
+Recommends: calf-plugins, dssi-host-jack, dssi-utils, fluidsynth-dssi, ghostess, hexter, linuxsampler-dssi, whysynth, xsynth-dssi, zynaddsubfx-dssi
 Description: DSSI plugins, synths and virtual instruments.
  This metapackage will install proaudio DSSI plugins packages.
+
+Package: openstudio-plugins-fst
+Architecture: all
+Depends: openstudio-tasks (= ${binary:Version})
+Recommends: dssi-vst, dssi-vst-ladspa, festige, fst, wineasio
+Description: fst plugins, synths and virtual instruments.
+ This metapackage will install proaudio fst plugins packages.
 
 Package: openstudio-plugins-ladspa
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: amb-plugins, ams, autotalent, blepvco, blop, caps, csladspa, fil-plugins, invada-studio-plugins-ladspa, jack-rack, jconvolver, jconvolver-config-files, ladspa-sdk, mcp-plugins, omins, rev-plugins, rubberband-ladspa, swh-plugins, tap-plugins, vco-plugins, wah-plugins, zita-at1
+Recommends: amb-plugins, ams, autotalent, blepvco, blop, caps, csladspa, fil-plugins, invada-studio-plugins-ladspa, jack-rack, jconvolver, jconvolver-config-files, ladspa-foo-plugins, ladspa-sdk, mcp-plugins, omins, rev-plugins, rubberband-ladspa, swh-plugins, tap-plugins, vco-plugins, wah-plugins, zita-at1
 Suggests: ambdec, jcgui, zita-rev1
 Description: Packages for installing LADSPA plugins.
  This metapackage will install proaudio LADSPA plugins.
@@ -179,8 +188,8 @@ Description: Packages for installing LADSPA plugins.
 Package: openstudio-plugins-lv2
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: calf-plugins, invada-studio-plugins-lv2, ir-lv2, liblv2dynparamhost1-1, liblv2dynparamplugin1-0, libslv2-9, libslv2-dev, lv2-c++-tools, lv2-c++-tools-doc, lv2core, lv2fil, lv2vocoder, slv2-doc, slv2-jack, swh-lv2, zynjacku
-Suggests: mda-lv2
+Recommends: calf-plugins, invada-studio-plugins-lv2, liblv2dynparamhost1-1, liblv2dynparamplugin1-0, libslv2-9, libslv2-dev, linuxsampler-lv2, lv2-c++-tools, lv2-c++-tools-doc, lv2core, lv2fil, lv2vocoder, mda-lv2-plugins, slv2-doc, slv2-jack, zynjacku
+Suggests: ir-lv2, swh-lv2
 Description: LV2 plugins, synths and virtual instruments.
  This metapackage will install proaudio LV2 plugins packages.
 
@@ -194,8 +203,8 @@ Description: This packages installs a realtime kernel for low latency.
 Package: openstudio-recording
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: ardour, jack-capture, jack-mixer, jack-oscrolloscope, jackd, meterbridge, non-mixer, qjackctl, qtractor, timemachine
-Suggests: ecasound, jokosher, non-daw, rezound, traverso
+Recommends: ardour, jack-capture, jack-mixer, jackd, meterbridge, non-mixer, qjackctl, qtractor, timemachine, xjadeo
+Suggests: ecasound, jack-oscrolloscope, jokosher, non-daw, rezound, traverso
 Description: Packages for recording music, sounds, audio.
  Packages for recording music, sounds, audio.
 
@@ -209,15 +218,15 @@ Description: Software samplers.
 Package: openstudio-soundsynthesis
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
-Recommends: csladspa, csound, csound-gui, csound-utils, faust, libsox-fmt-all, mmm-mode, pd-abstractions, pd-arraysize, pd-aubio, pd-bassemu, pd-beatpipe, pd-comport, pd-container, pd-creb, pd-csound, pd-cxc, pd-ext13, pd-flext, pd-gem2pdp, pd-iemlib, pd-iemmatrix, pd-lua, pd-mapping, pd-markex, pd-mjlib, pd-motex, pd-mrpeach, pd-opencv-data, pd-pdp-opencv, pd-pidip, pd-plugin, pd-pool, pd-py, pd-readanysf, pd-windowing, pd-xsample, pd-zexy, puredata, python-csound, python-csoundac, qutecsound, sox, supercollider, supercollider-bbcut2, supercollider-common, supercollider-common-dev, supercollider-dev, supercollider-doc, supercollider-emacs, supercollider-fougens-astrocade, supercollider-fougens-atari2600, supercollider-fougens-ay8910, supercollider-fougens-beep, supercollider-fougens-bit, supercollider-fougens-mzpokey, supercollider-fougens-nesapu, supercollider-fougens-pokey, supercollider-fougens-reddpcm, supercollider-fougens-redlbyl, supercollider-fougens-rednoise, supercollider-fougens-redphasor, supercollider-fougens-sid6581f, supercollider-fougens-slub, supercollider-fougens-sn76489, supercollider-gedit, supercollider-jtugens, supercollider-plugins, supercollider-quarks, supercollider-server, supercollider-server-dev, supercollider-skugens, supercollider-vim, swingosc
-Suggests: chuck, csoundx, pd-arduino, pd-gem, pd-ggee, pd-gridflow, pd-hid, pd-libstdcpp, pd-lyonpotpourri, pd-msd, pd-ogg, pd-oscbank, pd-pix-opencv, pd-sigpack, pd-smlib, pd-unauthorized
+Recommends: csladspa, csound, csound-gui, csound-utils, din, faust, libsox-fmt-all, mmm-mode, pd-abstractions, pd-arraysize, pd-aubio, pd-bassemu, pd-beatpipe, pd-comport, pd-container, pd-creb, pd-csound, pd-cxc, pd-ext13, pd-flext, pd-gem2pdp, pd-ggee, pd-hid, pd-iemlib, pd-iemmatrix, pd-lua, pd-lyonpotpourri, pd-mapping, pd-markex, pd-mjlib, pd-motex, pd-mrpeach, pd-opencv-data, pd-oscbank, pd-pdp-opencv, pd-pidip, pd-plugin, pd-pool, pd-py, pd-readanysf, pd-sigpack, pd-windowing, pd-xsample, pd-zexy, puredata, python-csound, python-csoundac, qutecsound, sox, supercollider, supercollider-bbcut2, supercollider-common, supercollider-common-dev, supercollider-dev, supercollider-doc, supercollider-emacs, supercollider-fougens-astrocade, supercollider-fougens-atari2600, supercollider-fougens-ay8910, supercollider-fougens-beep, supercollider-fougens-bit, supercollider-fougens-mzpokey, supercollider-fougens-nesapu, supercollider-fougens-pokey, supercollider-fougens-reddpcm, supercollider-fougens-redlbyl, supercollider-fougens-rednoise, supercollider-fougens-redphasor, supercollider-fougens-sid6581f, supercollider-fougens-slub, supercollider-fougens-sn76489, supercollider-gedit, supercollider-jtugens, supercollider-plugins, supercollider-quarks, supercollider-server, supercollider-server-dev, supercollider-skugens, supercollider-vim, swingosc, w3m-el
+Suggests: chuck, csoundx, pd-arduino, pd-gem, pd-gridflow, pd-libstdcpp, pd-msd, pd-ogg, pd-pix-opencv, pd-smlib, pd-unauthorized
 Description: Packages for sound synthesis.
 
 Package: openstudio-synths
 Architecture: all
 Depends: openstudio-tasks (= ${binary:Version})
 Recommends: ams, bristol, phasex, puredata, yoshimi
-Suggests: aeolus, amsynth, azr3-jack, foo-yc20, genpo, ingen-svn, linuxsampler, minicomputer, proaudio-samplers, qsampler, zynaddsubfx
+Suggests: aeolus, amsynth, azr3-jack, foo-yc20, genpo, ingen-svn, linuxsampler, minicomputer, monobristol, proaudio-samplers, qsampler, zynaddsubfx
 Description: Metapackage with virtual instruments and synths.
  This metapackage will install synths and virtual instruments. 
 
